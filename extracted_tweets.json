@@ -1,0 +1,802 @@
+[
+    {
+        "created_at": "2025-08-26T21:01:37.000Z",
+        "edit_history_tweet_ids": [
+            "1960447565452701734"
+        ],
+        "id": "1960447565452701734",
+        "text": "RT @infwinston: nano-banana (Gemini-2.5-flash-image) is unreal.\n\n- #1 in Image Edit with massive 170 Elo score lead\n- Drove 5M+ votes in 2\u2026",
+        "public_metrics": {
+            "retweet_count": 82,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 0
+        }
+    },
+    {
+        "created_at": "2025-08-26T16:05:50.000Z",
+        "edit_history_tweet_ids": [
+            "1960373130607677692"
+        ],
+        "id": "1960373130607677692",
+        "text": "More here:\u00a0https://t.co/tJO4nAQEgL",
+        "public_metrics": {
+            "retweet_count": 22,
+            "reply_count": 16,
+            "like_count": 307,
+            "quote_count": 5,
+            "bookmark_count": 73,
+            "impression_count": 150218
+        }
+    },
+    {
+        "created_at": "2025-08-26T16:05:49.000Z",
+        "edit_history_tweet_ids": [
+            "1960373125884858604"
+        ],
+        "id": "1960373125884858604",
+        "text": "Every month, people use Google to translate around 1 trillion words. Today, we\u2019re introducing a new AI-powered live translation experience in the Google Translate app, plus a new beta feature to help you practice new languages. Rolling out now on iOS + Android. https://t.co/0DvKYqbSTV",
+        "public_metrics": {
+            "retweet_count": 529,
+            "reply_count": 231,
+            "like_count": 5440,
+            "quote_count": 120,
+            "bookmark_count": 945,
+            "impression_count": 467967
+        }
+    },
+    {
+        "created_at": "2025-08-26T14:03:24.000Z",
+        "edit_history_tweet_ids": [
+            "1960342316415087049"
+        ],
+        "id": "1960342316415087049",
+        "text": "Our image editing model is now rolling out in @Geminiapp - and yes, it\u2019s \ud83c\udf4c\ud83c\udf4c. Top of @lmarena\u2019s image edit leaderboard, it\u2019s especially good at maintaining likeness across different contexts. Check out a few of my dog Jeffree in honor of International Dog Day - though don\u2019t let https://t.co/8Y45DawZBc",
+        "public_metrics": {
+            "retweet_count": 435,
+            "reply_count": 253,
+            "like_count": 5351,
+            "quote_count": 98,
+            "bookmark_count": 442,
+            "impression_count": 429327
+        }
+    },
+    {
+        "created_at": "2025-08-26T13:55:59.000Z",
+        "edit_history_tweet_ids": [
+            "1960340452604785008"
+        ],
+        "id": "1960340452604785008",
+        "text": "\ud83c\udf4c\ud83c\udf4c\ud83c\udf4c",
+        "public_metrics": {
+            "retweet_count": 1894,
+            "reply_count": 2954,
+            "like_count": 34812,
+            "quote_count": 1273,
+            "bookmark_count": 1772,
+            "impression_count": 4579549
+        }
+    },
+    {
+        "created_at": "2025-08-26T03:43:14.000Z",
+        "edit_history_tweet_ids": [
+            "1960186246644335104"
+        ],
+        "id": "1960186246644335104",
+        "text": "RT @AiBreakfast: Gemini Pro doesn't get enough credit for being able to upload 1500+ pages of text to reference (several textbooks in PDF f\u2026",
+        "public_metrics": {
+            "retweet_count": 113,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 8
+        }
+    },
+    {
+        "created_at": "2025-08-24T01:19:43.000Z",
+        "edit_history_tweet_ids": [
+            "1959425355166445655"
+        ],
+        "id": "1959425355166445655",
+        "text": "RT @joshwoodward: @GeminiApp Free Weekend expands!\n\nA lot of you asked us to double the Veo limits for the next ~24 hours, let's do it\n\nFre\u2026",
+        "public_metrics": {
+            "retweet_count": 197,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 3
+        }
+    },
+    {
+        "created_at": "2025-08-23T01:50:54.000Z",
+        "edit_history_tweet_ids": [
+            "1959070813317210260"
+        ],
+        "id": "1959070813317210260",
+        "text": "Veo 3 is now free for the weekend for everyone to try\u00a0 - can\u2019t wait to see what you\u2019ll create!\u00a0\ud83c\udfac https://t.co/vF1lnGMklk",
+        "public_metrics": {
+            "retweet_count": 737,
+            "reply_count": 334,
+            "like_count": 6178,
+            "quote_count": 122,
+            "bookmark_count": 1266,
+            "impression_count": 1068963
+        }
+    },
+    {
+        "created_at": "2025-08-21T16:04:36.000Z",
+        "edit_history_tweet_ids": [
+            "1958560880343593426"
+        ],
+        "id": "1958560880343593426",
+        "text": "RT @JeffDean: AI efficiency is important. Today, Google is sharing a technical paper detailing our comprehensive methodology for measuring\u2026",
+        "public_metrics": {
+            "retweet_count": 839,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 5
+        }
+    },
+    {
+        "created_at": "2025-08-21T14:38:49.000Z",
+        "edit_history_tweet_ids": [
+            "1958539289081557155"
+        ],
+        "id": "1958539289081557155",
+        "text": "More details here: https://t.co/Bzxyq01GKT",
+        "public_metrics": {
+            "retweet_count": 18,
+            "reply_count": 22,
+            "like_count": 193,
+            "quote_count": 2,
+            "bookmark_count": 15,
+            "impression_count": 53104
+        }
+    },
+    {
+        "created_at": "2025-08-21T14:36:24.000Z",
+        "edit_history_tweet_ids": [
+            "1958538684208476611"
+        ],
+        "id": "1958538684208476611",
+        "text": "Building on our @GoogleWorkspace offer for federal employees, we\u2019re proud to partner with the @USGSA to launch Gemini for Government. More than a model, it\u2019s our complete AI platform with our latest AI tools, including NotebookLM and Veo, powered by our latest models and our",
+        "public_metrics": {
+            "retweet_count": 114,
+            "reply_count": 108,
+            "like_count": 1317,
+            "quote_count": 21,
+            "bookmark_count": 83,
+            "impression_count": 155175
+        }
+    },
+    {
+        "created_at": "2025-08-20T19:11:39.000Z",
+        "edit_history_tweet_ids": [
+            "1958245562454806697"
+        ],
+        "id": "1958245562454806697",
+        "text": "Made by Google and the 10th (!) generation Pixel just capped off a summer of shipping for teams at Google. Week after week - new models, new products and features, and now, new devices, all with the goal of making AI truly helpful to you, wherever you need it. We\u2019re not slowing https://t.co/4ULK2k7ceE",
+        "public_metrics": {
+            "retweet_count": 181,
+            "reply_count": 132,
+            "like_count": 1884,
+            "quote_count": 6,
+            "bookmark_count": 78,
+            "impression_count": 223563
+        }
+    },
+    {
+        "created_at": "2025-08-20T17:53:32.000Z",
+        "edit_history_tweet_ids": [
+            "1958225904007790877"
+        ],
+        "id": "1958225904007790877",
+        "text": "RT @Google: Meet Pixel 10, Pixel 10 Pro and Pixel 10 Pro XL. Powered by our new Google Tensor G5 chip and our latest Gemini Nano model, the\u2026",
+        "public_metrics": {
+            "retweet_count": 602,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 2
+        }
+    },
+    {
+        "created_at": "2025-08-20T17:20:57.000Z",
+        "edit_history_tweet_ids": [
+            "1958217707083661713"
+        ],
+        "id": "1958217707083661713",
+        "text": "@MKBHD @rosterloh @StephenCurry30 Putting together an all star lineup \ud83d\ude09",
+        "public_metrics": {
+            "retweet_count": 5,
+            "reply_count": 10,
+            "like_count": 568,
+            "quote_count": 0,
+            "bookmark_count": 4,
+            "impression_count": 16203
+        }
+    },
+    {
+        "created_at": "2025-08-18T16:02:06.000Z",
+        "edit_history_tweet_ids": [
+            "1957473085914755316"
+        ],
+        "id": "1957473085914755316",
+        "text": "AI credits can also be used in Whisk, which is expanding to 70+ countries - more details on it all here: https://t.co/xVlfsC7zgP",
+        "public_metrics": {
+            "retweet_count": 3,
+            "reply_count": 16,
+            "like_count": 119,
+            "quote_count": 1,
+            "bookmark_count": 8,
+            "impression_count": 38771
+        }
+    },
+    {
+        "created_at": "2025-08-18T16:02:05.000Z",
+        "edit_history_tweet_ids": [
+            "1957473083993813121"
+        ],
+        "id": "1957473083993813121",
+        "text": "100M videos created in @FlowbyGoogle - our AI for filmmakers - since May!\u00a0\n\nHuge milestone, and now Ultra Subscribers get 2X the AI credits to keep the creativity flowing -\u00a0https://t.co/EqAEJURSfg https://t.co/lcVJJkb67s",
+        "public_metrics": {
+            "retweet_count": 170,
+            "reply_count": 131,
+            "like_count": 1868,
+            "quote_count": 25,
+            "bookmark_count": 186,
+            "impression_count": 118340
+        }
+    },
+    {
+        "created_at": "2025-08-14T03:54:22.000Z",
+        "edit_history_tweet_ids": [
+            "1955840394534785395"
+        ],
+        "id": "1955840394534785395",
+        "text": "@levie @collision \ud83d\ude02",
+        "public_metrics": {
+            "retweet_count": 5,
+            "reply_count": 12,
+            "like_count": 386,
+            "quote_count": 0,
+            "bookmark_count": 3,
+            "impression_count": 19372
+        }
+    },
+    {
+        "created_at": "2025-08-13T20:07:34.000Z",
+        "edit_history_tweet_ids": [
+            "1955722919440527431"
+        ],
+        "id": "1955722919440527431",
+        "text": "I had the chance to visit Pryor, OK, a few years back to see how our data center investments were benefiting local schools and businesses. Proud to invest another $9B over two years in Oklahoma, including in Pryor + a new facility in Stillwater, communities that are vital engines",
+        "public_metrics": {
+            "retweet_count": 302,
+            "reply_count": 128,
+            "like_count": 1947,
+            "quote_count": 14,
+            "bookmark_count": 75,
+            "impression_count": 195501
+        }
+    },
+    {
+        "created_at": "2025-08-13T18:15:07.000Z",
+        "edit_history_tweet_ids": [
+            "1955694620878225795"
+        ],
+        "id": "1955694620878225795",
+        "text": "@collision This feature is now live for everyone on Google Calendar on the web - thanks for the suggestion!",
+        "public_metrics": {
+            "retweet_count": 32,
+            "reply_count": 74,
+            "like_count": 2430,
+            "quote_count": 33,
+            "bookmark_count": 88,
+            "impression_count": 246413
+        }
+    },
+    {
+        "created_at": "2025-08-08T18:42:59.000Z",
+        "edit_history_tweet_ids": [
+            "1953889693843829121"
+        ],
+        "id": "1953889693843829121",
+        "text": "RT @demishassabis: One word: relentless. just in the past two weeks, we\u2019ve shipped:\n\n\ud83c\udf10 Genie 3 - the most advanced world simulator ever\n\ud83e\udd14 G\u2026",
+        "public_metrics": {
+            "retweet_count": 1052,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 4
+        }
+    },
+    {
+        "created_at": "2025-08-06T16:01:52.000Z",
+        "edit_history_tweet_ids": [
+            "1953124374619292027"
+        ],
+        "id": "1953124374619292027",
+        "text": "Plus, we\u2019re launching a new Guided Learning mode in the @Geminiapp.\u00a0 Get all the details here:\u00a0https://t.co/Eg54d84frF\n\nAccess the student offer here:\u00a0https://t.co/kBMn2SGeyY",
+        "public_metrics": {
+            "retweet_count": 67,
+            "reply_count": 37,
+            "like_count": 516,
+            "quote_count": 5,
+            "bookmark_count": 285,
+            "impression_count": 82050
+        }
+    },
+    {
+        "created_at": "2025-08-06T16:01:52.000Z",
+        "edit_history_tweet_ids": [
+            "1953124372480180550"
+        ],
+        "id": "1953124372480180550",
+        "text": "Excited to make our best AI tools free for college students in the US + other select countries for a year - and to provide $1B in funding for education + research, including free AI and career training for every college student in America. https://t.co/THiMOrwT1m",
+        "public_metrics": {
+            "retweet_count": 883,
+            "reply_count": 399,
+            "like_count": 10879,
+            "quote_count": 135,
+            "bookmark_count": 2758,
+            "impression_count": 925034
+        }
+    },
+    {
+        "created_at": "2025-08-05T15:55:46.000Z",
+        "edit_history_tweet_ids": [
+            "1952760451432890593"
+        ],
+        "id": "1952760451432890593",
+        "text": "RT @demishassabis: Genie 3 is here - it can generate an entire world simulation that you can interact with in real-time, just from a text p\u2026",
+        "public_metrics": {
+            "retweet_count": 811,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 0
+        }
+    },
+    {
+        "created_at": "2025-08-05T15:43:26.000Z",
+        "edit_history_tweet_ids": [
+            "1952757348340035789"
+        ],
+        "id": "1952757348340035789",
+        "text": "Genie 3 is \ud83d\udd25 https://t.co/to5UCOTVGM",
+        "public_metrics": {
+            "retweet_count": 392,
+            "reply_count": 136,
+            "like_count": 4048,
+            "quote_count": 23,
+            "bookmark_count": 242,
+            "impression_count": 193610
+        }
+    },
+    {
+        "created_at": "2025-08-01T12:16:40.000Z",
+        "edit_history_tweet_ids": [
+            "1951255758424707452"
+        ],
+        "id": "1951255758424707452",
+        "text": "More details:\u00a0https://t.co/RRFtTKiM3f",
+        "public_metrics": {
+            "retweet_count": 25,
+            "reply_count": 24,
+            "like_count": 185,
+            "quote_count": 0,
+            "bookmark_count": 21,
+            "impression_count": 51873
+        }
+    },
+    {
+        "created_at": "2025-08-01T12:15:53.000Z",
+        "edit_history_tweet_ids": [
+            "1951255564199039082"
+        ],
+        "id": "1951255564199039082",
+        "text": "We\u2019re bringing a version of Deep Think that achieved gold-medal status at IMO to Ultra subscribers in the @Geminiapp (+ the official version is now in the hands of mathematicians).\u00a0\n\nToggle it on when reasoning through complex scientific literature, tackling a coding problem that https://t.co/OyFSGsQSgJ",
+        "public_metrics": {
+            "retweet_count": 477,
+            "reply_count": 240,
+            "like_count": 4737,
+            "quote_count": 75,
+            "bookmark_count": 439,
+            "impression_count": 428034
+        }
+    },
+    {
+        "created_at": "2025-07-24T11:26:51.000Z",
+        "edit_history_tweet_ids": [
+            "1948344120256160251"
+        ],
+        "id": "1948344120256160251",
+        "text": "@elonmusk \ud83d\ude4f",
+        "public_metrics": {
+            "retweet_count": 19,
+            "reply_count": 66,
+            "like_count": 1802,
+            "quote_count": 4,
+            "bookmark_count": 14,
+            "impression_count": 90560
+        }
+    },
+    {
+        "created_at": "2025-07-23T22:46:16.000Z",
+        "edit_history_tweet_ids": [
+            "1948152714770141554"
+        ],
+        "id": "1948152714770141554",
+        "text": "@theinformation Excited for everything that\u2019s coming into view for the next decade, especially the progress towards AGI - and we\u2019re going to work hard to make sure it\u2019s beneficial for everyone. Onwards!",
+        "public_metrics": {
+            "retweet_count": 48,
+            "reply_count": 52,
+            "like_count": 1287,
+            "quote_count": 6,
+            "bookmark_count": 21,
+            "impression_count": 122524
+        }
+    },
+    {
+        "created_at": "2025-07-23T22:45:33.000Z",
+        "edit_history_tweet_ids": [
+            "1948152531680440548"
+        ],
+        "id": "1948152531680440548",
+        "text": "@theinformation And of course there\u2019s the revenue growth from providing highly valuable services to our customers + partners. https://t.co/AvwCX4ZaX9",
+        "public_metrics": {
+            "retweet_count": 73,
+            "reply_count": 40,
+            "like_count": 1091,
+            "quote_count": 17,
+            "bookmark_count": 52,
+            "impression_count": 204917
+        }
+    },
+    {
+        "created_at": "2025-07-23T22:44:39.000Z",
+        "edit_history_tweet_ids": [
+            "1948152308333736031"
+        ],
+        "id": "1948152308333736031",
+        "text": "For the last 10 years, we\u2019ve deliberately and meticulously built every layer of the AI stack, which has positioned us so well today.\u00a0 (h/t @TheInformation) https://t.co/6IYXwM2MWU",
+        "public_metrics": {
+            "retweet_count": 123,
+            "reply_count": 39,
+            "like_count": 1539,
+            "quote_count": 41,
+            "bookmark_count": 258,
+            "impression_count": 250212
+        }
+    },
+    {
+        "created_at": "2025-07-23T22:43:24.000Z",
+        "edit_history_tweet_ids": [
+            "1948151991831544039"
+        ],
+        "id": "1948151991831544039",
+        "text": "Then there\u2019s the remarkable evolution in Search. We\u2019ve created entirely new ways to search like Lens + Circle to Search, and we keep incorporating our most advanced AI models. Now AI Overviews and AI Mode are reimagining the types of queries people can ask and we can answer. The https://t.co/L0zM9yXB54",
+        "public_metrics": {
+            "retweet_count": 62,
+            "reply_count": 107,
+            "like_count": 1253,
+            "quote_count": 70,
+            "bookmark_count": 94,
+            "impression_count": 285161
+        }
+    },
+    {
+        "created_at": "2025-07-23T22:42:21.000Z",
+        "edit_history_tweet_ids": [
+            "1948151726260867276"
+        ],
+        "id": "1948151726260867276",
+        "text": "Just got off the earnings call - great quarter and it was our (and my) 40th call as Alphabet. \n\nAugust will mark 10 years since we announced Alphabet. Been thinking about the incredible growth in our new businesses since then - Cloud, YouTube, Play, Subscriptions etc. To give a",
+        "public_metrics": {
+            "retweet_count": 841,
+            "reply_count": 391,
+            "like_count": 16687,
+            "quote_count": 102,
+            "bookmark_count": 1515,
+            "impression_count": 1659178
+        }
+    },
+    {
+        "created_at": "2025-07-23T20:55:23.000Z",
+        "edit_history_tweet_ids": [
+            "1948124806932578426"
+        ],
+        "id": "1948124806932578426",
+        "text": "RT @AndrewCurran_: Sundar Pichai on the earnings call: \n- 'The growth in usage has been incredible. At I/O in May we announced that we proc\u2026",
+        "public_metrics": {
+            "retweet_count": 563,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 1
+        }
+    },
+    {
+        "created_at": "2025-07-23T20:47:19.000Z",
+        "edit_history_tweet_ids": [
+            "1948122779464986950"
+        ],
+        "id": "1948122779464986950",
+        "text": "4/ Great quarter, thanks to our employees around the world.\u00a0\n\nRead a full transcript of my remarks from today\u2019s earnings call:\u00a0https://t.co/ncm6ESulac",
+        "public_metrics": {
+            "retweet_count": 34,
+            "reply_count": 18,
+            "like_count": 424,
+            "quote_count": 1,
+            "bookmark_count": 31,
+            "impression_count": 48594
+        }
+    },
+    {
+        "created_at": "2025-07-23T20:46:34.000Z",
+        "edit_history_tweet_ids": [
+            "1948122590431854778"
+        ],
+        "id": "1948122590431854778",
+        "text": "3/ And we continue to ship faster than ever: \n\nGemini 2.5 and Deep Search in AI Mode last week\n\nGemini 2.5 Flash-Lite went into GA yesterday \n\nStarting today, photo to video is coming to Google Photos and YouTube Shorts\n\nWe achieved gold-medal level performance in the",
+        "public_metrics": {
+            "retweet_count": 27,
+            "reply_count": 8,
+            "like_count": 435,
+            "quote_count": 0,
+            "bookmark_count": 9,
+            "impression_count": 56477
+        }
+    },
+    {
+        "created_at": "2025-07-23T20:45:34.000Z",
+        "edit_history_tweet_ids": [
+            "1948122338538439077"
+        ],
+        "id": "1948122338538439077",
+        "text": "2/ Strong growth in AI usage across our products and platforms:\u00a0\n\nWe\u2019re processing 980 trillion+ monthly tokens across our products and APIs (up from 480T at I/O in May)\n\nAI Overviews in Search now has 2B+ monthly users across 200 countries/territories and 40 languages\n\n450M",
+        "public_metrics": {
+            "retweet_count": 32,
+            "reply_count": 10,
+            "like_count": 435,
+            "quote_count": 19,
+            "bookmark_count": 19,
+            "impression_count": 51985
+        }
+    },
+    {
+        "created_at": "2025-07-23T20:44:29.000Z",
+        "edit_history_tweet_ids": [
+            "1948122065221152930"
+        ],
+        "id": "1948122065221152930",
+        "text": "1/ Q2 was a standout quarter with robust growth across the company. As we showed at I/O, we\u2019re leading at the frontier of AI and shipping at an incredible pace. \n\nSearch and YouTube saw strong revenue growth.\n\nAnd Cloud had another quarter of strong growth in revenues +",
+        "public_metrics": {
+            "retweet_count": 196,
+            "reply_count": 100,
+            "like_count": 2623,
+            "quote_count": 35,
+            "bookmark_count": 180,
+            "impression_count": 258731
+        }
+    },
+    {
+        "created_at": "2025-07-23T16:04:09.000Z",
+        "edit_history_tweet_ids": [
+            "1948051516876812695"
+        ],
+        "id": "1948051516876812695",
+        "text": "More on Google Photos features + availability here: https://t.co/4TjCSXGuWV\nMore on YouTube Shorts features here: https://t.co/iAMVqp28Wc",
+        "public_metrics": {
+            "retweet_count": 8,
+            "reply_count": 11,
+            "like_count": 103,
+            "quote_count": 0,
+            "bookmark_count": 9,
+            "impression_count": 31953
+        }
+    },
+    {
+        "created_at": "2025-07-23T16:04:08.000Z",
+        "edit_history_tweet_ids": [
+            "1948051513101996353"
+        ],
+        "id": "1948051513101996353",
+        "text": "So many of you are loving turning your photos into short videos in the @Geminiapp and the\u00a0Gemini API. Next up, we\u2019ll be rolling this feature out to @YouTube Shorts and @GooglePhotos.\u00a0And soon,\u00a0Remix\u00a0your Google Photos into comics, sketches + 3D animations. https://t.co/ct8AYvJpA7",
+        "public_metrics": {
+            "retweet_count": 215,
+            "reply_count": 140,
+            "like_count": 1664,
+            "quote_count": 41,
+            "bookmark_count": 134,
+            "impression_count": 180737
+        }
+    },
+    {
+        "created_at": "2025-07-22T16:21:57.000Z",
+        "edit_history_tweet_ids": [
+            "1947693607726510537"
+        ],
+        "id": "1947693607726510537",
+        "text": "More details: https://t.co/rFLS6e1VJN",
+        "public_metrics": {
+            "retweet_count": 6,
+            "reply_count": 10,
+            "like_count": 101,
+            "quote_count": 0,
+            "bookmark_count": 12,
+            "impression_count": 34808
+        }
+    },
+    {
+        "created_at": "2025-07-22T16:21:56.000Z",
+        "edit_history_tweet_ids": [
+            "1947693605247660084"
+        ],
+        "id": "1947693605247660084",
+        "text": "Gemini 2.5 Flash-Lite is now GA \u2014 it\u2019s our fastest (400 tokens/second), most cost-efficient  ($0.10 in, $0.40 out) 2.5 model yet. Look for it in Google AI Studio + Vertex AI. \ud83d\udd26\ud83d\ude09 https://t.co/JbgHCD9Ylc",
+        "public_metrics": {
+            "retweet_count": 182,
+            "reply_count": 96,
+            "like_count": 2047,
+            "quote_count": 22,
+            "bookmark_count": 158,
+            "impression_count": 117077
+        }
+    },
+    {
+        "created_at": "2025-07-21T21:04:26.000Z",
+        "edit_history_tweet_ids": [
+            "1947402309216178348"
+        ],
+        "id": "1947402309216178348",
+        "text": "@elonmusk @GoogleDeepMind Thanks!",
+        "public_metrics": {
+            "retweet_count": 29,
+            "reply_count": 43,
+            "like_count": 1775,
+            "quote_count": 2,
+            "bookmark_count": 17,
+            "impression_count": 56079
+        }
+    },
+    {
+        "created_at": "2025-07-21T16:56:36.000Z",
+        "edit_history_tweet_ids": [
+            "1947339941702246581"
+        ],
+        "id": "1947339941702246581",
+        "text": "RT @koraykv: Advanced version of Gemini Deep Think (announced at #GoogleIO) using parallel inference time computation achieved gold-medal p\u2026",
+        "public_metrics": {
+            "retweet_count": 150,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 6
+        }
+    },
+    {
+        "created_at": "2025-07-21T16:54:58.000Z",
+        "edit_history_tweet_ids": [
+            "1947339532136787999"
+        ],
+        "id": "1947339532136787999",
+        "text": "From silver to gold in just a year - the rate of progress in mathematical reasoning is just astounding! Congrats to the @GoogleDeepMind team\u00a0\ud83c\udf89 https://t.co/fAqQ3w3D6q",
+        "public_metrics": {
+            "retweet_count": 387,
+            "reply_count": 149,
+            "like_count": 6509,
+            "quote_count": 29,
+            "bookmark_count": 196,
+            "impression_count": 364897
+        }
+    },
+    {
+        "created_at": "2025-07-17T17:22:39.000Z",
+        "edit_history_tweet_ids": [
+            "1945896946712952932"
+        ],
+        "id": "1945896946712952932",
+        "text": "Get more details here: https://t.co/NZXcjVHWbd",
+        "public_metrics": {
+            "retweet_count": 16,
+            "reply_count": 18,
+            "like_count": 139,
+            "quote_count": 3,
+            "bookmark_count": 14,
+            "impression_count": 37498
+        }
+    },
+    {
+        "created_at": "2025-07-17T17:22:39.000Z",
+        "edit_history_tweet_ids": [
+            "1945896944938684583"
+        ],
+        "id": "1945896944938684583",
+        "text": "Developers can now build with Veo 3 \ud83c\udfac in the Gemini API. It\u2019s live in paid preview, starting with text to video (image to video coming soon). So many fun Veo trends coming from @Geminiapp users already, can't wait to see what devs come up with!",
+        "public_metrics": {
+            "retweet_count": 142,
+            "reply_count": 105,
+            "like_count": 1811,
+            "quote_count": 20,
+            "bookmark_count": 126,
+            "impression_count": 109811
+        }
+    },
+    {
+        "created_at": "2025-07-16T17:20:28.000Z",
+        "edit_history_tweet_ids": [
+            "1945534009640976562"
+        ],
+        "id": "1945534009640976562",
+        "text": "More details on the features + availability here:\u00a0https://t.co/EnHBL0CrXi",
+        "public_metrics": {
+            "retweet_count": 25,
+            "reply_count": 11,
+            "like_count": 256,
+            "quote_count": 2,
+            "bookmark_count": 23,
+            "impression_count": 45607
+        }
+    },
+    {
+        "created_at": "2025-07-16T17:19:57.000Z",
+        "edit_history_tweet_ids": [
+            "1945533879403598243"
+        ],
+        "id": "1945533879403598243",
+        "text": "New advanced AI features coming to Search:\n\nGemini 2.5 Pro and Deep Search are rolling out in AI Mode to help with more complex questions and research - available now to Google AI Pro/Ultra subscribers. Plus, a new agentic capability directly in Search: AI-powered calling to",
+        "public_metrics": {
+            "retweet_count": 319,
+            "reply_count": 172,
+            "like_count": 3501,
+            "quote_count": 47,
+            "bookmark_count": 262,
+            "impression_count": 221136
+        }
+    },
+    {
+        "created_at": "2025-07-15T16:22:44.000Z",
+        "edit_history_tweet_ids": [
+            "1945157091251118508"
+        ],
+        "id": "1945157091251118508",
+        "text": "RT @ssamat: Great to see so much interest in this topic! To reiterate what we announced in our 2024 blog post: we're building the ChromeOS\u2026",
+        "public_metrics": {
+            "retweet_count": 71,
+            "reply_count": 0,
+            "like_count": 0,
+            "quote_count": 0,
+            "bookmark_count": 0,
+            "impression_count": 14
+        }
+    },
+    {
+        "created_at": "2025-07-15T13:15:08.000Z",
+        "edit_history_tweet_ids": [
+            "1945109881138110706"
+        ],
+        "id": "1945109881138110706",
+        "text": "More details on Big Sleep and our latest security work: https://t.co/agY9AOkyRe",
+        "public_metrics": {
+            "retweet_count": 82,
+            "reply_count": 18,
+            "like_count": 510,
+            "quote_count": 11,
+            "bookmark_count": 170,
+            "impression_count": 69928
+        }
+    }
+]
