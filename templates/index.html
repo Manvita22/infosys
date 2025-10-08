@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Tweet Generator</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    let tweet_a_out = null;
+    let tweet_b_out = null;
+
+    async function generateTweet() {
+      const prompt = document.getElementById("prompt").value;
+      if (!prompt) {
+        alert("Please enter a prompt!");
+        return;
+      }
+
+      const chatBox = document.getElementById("chatBox");
+
+      // User message
+      chatBox.innerHTML += `
+        <div class="flex justify-end mb-4">
+          <div class="bg-blue-600 text-white rounded-2xl px-6 py-4 w-full max-w-4xl shadow-lg">
+            ${prompt}
+          </div>
+        </div>
+      `;
+
+      document.getElementById("prompt").value = "";
+      document.getElementById("status").innerText = "⏳ Generating tweets...";
+
+      try {
+        const res = await fetch(`/generate?prompt=${encodeURIComponent(prompt)}`);
+        const data = await res.json();
+
+        document.getElementById("status").innerText = "";
+
+        // Store tweets globally
+        tweet_a_out = data.tweet_a;
+        tweet_b_out = data.tweet_b;
+
+        // AI responses
+        const responses = [
+          {label: "Tweet A", text: tweet_a_out, color: "green"},
+          {label: "Tweet B", text: tweet_b_out, color: "purple"},
+          {label: "Comparison", text: data.tweet_a_vs_tweet_b, color: "yellow"},
+          {label: "Prediction", text: data.prediction, color: "red"},
+          {label: "Explanation", text: data.explanation, color: "indigo"}
+        ];
+
+        responses.forEach(item => {
+          chatBox.innerHTML += `
+            <div class="flex justify-center mb-4">
+              <div class="bg-${item.color}-100 border-l-4 border-${item.color}-500 text-gray-800 rounded-2xl px-6 py-4 w-full max-w-4xl shadow-lg">
+                <strong>${item.label}:</strong> <br> ${item.text || "❌ Failed"}
+              </div>
+            </div>
+          `;
+        });
+
+        chatBox.scrollTop = chatBox.scrollHeight;
+
+      } catch (err) {
+        document.getElementById("status").innerText = "⚠️ Error fetching result.";
+        console.error(err);
+      }
+    }
+  </script>
+</head>
+<body class="bg-gradient-to-br from-purple-200 via-pink-100 to-blue-200 min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="text-center py-6 bg-white shadow">
+    <h1 class="text-3xl font-bold text-gray-800">🚀 AI Tweet Generator</h1>
+    <p class="text-gray-500">Chat with AI to generate tweets, comparisons, and predictions</p>
+  </header>
+
+  <!-- Chat Area -->
+  <main id="chatBox" class="flex-grow overflow-y-auto px-4 py-6 max-w-5xl mx-auto w-full">
+    <!-- Messages will appear here -->
+  </main>
+
+  <!-- Bottom input bar -->
+  <div class="w-full bg-white border-t border-gray-300 p-4 flex items-center justify-center sticky bottom-0 shadow-md">
+    <input type="text" id="prompt" placeholder="Type your prompt here..."
+      class="flex-grow max-w-3xl border border-gray-300 rounded-2xl px-6 py-3 mr-4 focus:ring-2 focus:ring-blue-400 focus:outline-none" />
+    <button onclick="generateTweet()"
+      class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-8 py-3 rounded-2xl shadow-lg transition">
+      Generate
+    </button>
+  </div>
+
+  <!-- Status -->
+  <p id="status" class="text-center text-blue-600 font-medium py-2"></p>
+
+</body>
+</html>

@@ -192,12 +192,12 @@ if __name__ == "__main__":
             execute_gemini(prompt=prompt)
 
 
-def execute_gemini_for_tweets(prompt): #INFO: THIS IS FOR TWEET CREATION
+def execute_gemini_for_tweets(prompt,model): #INFO: THIS IS FOR TWEET CREATION
     client = genai.Client(
         api_key=GEMINI_API_KEY,
     )
 
-    model = "gemini-2.5-flash-lite"
+    # model = "gemini-2.5-flash-lite"
     contents = [
         types.Content( # user prompt (same as chat input)
             role="user",
@@ -216,11 +216,17 @@ def execute_gemini_for_tweets(prompt): #INFO: THIS IS FOR TWEET CREATION
         response_mime_type="application/json",
         response_schema=genai.types.Schema(
             type=genai.types.Type.OBJECT,
-            required=["tweet", "prediction", "explanation"],
+             required=["tweet","prediction", "explanation"],#,"tweetB","tweetA_vs_tweetB" ,],
             properties={
                 "tweet": genai.types.Schema(
                     type=genai.types.Type.STRING,
                 ),
+                # "tweetB": genai.types.Schema(
+                #     type=genai.types.Type.STRING,
+                # ),
+                # "tweetA_vs_tweetB": genai.types.Schema(
+                #     type=genai.types.Type.STRING,
+                # ),
                 "prediction": genai.types.Schema(
                     type=genai.types.Type.STRING,
                 ),
@@ -231,6 +237,55 @@ def execute_gemini_for_tweets(prompt): #INFO: THIS IS FOR TWEET CREATION
         ),
     )
 
+    result = client.models.generate_content(
+        model=model,
+        contents=contents,
+        config=generate_content_config,
+    )
+
+    return result.text
+
+def execute_gemini_for_tweet_pred(prompt,model):
+    client = genai.Client(
+        api_key=GEMINI_API_KEY,
+    )
+
+    # model = "gemini-2.5-flash-lite"
+    contents = [
+        types.Content( # user prompt (same as chat input)
+            role="user",
+            parts=[
+                types.Part.from_text(text=prompt),
+            ],
+        ),
+    ]
+    tools = [
+        # types.Tool(googleSearch=types.GoogleSearch()),
+    ]
+    generate_content_config = types.GenerateContentConfig(
+        thinking_config=types.ThinkingConfig(
+            thinking_budget=-1,
+        ),
+        response_mime_type="application/json",
+        response_schema=genai.types.Schema(
+            type=genai.types.Type.OBJECT,
+             required=["tweetA_vs_tweetB","prediction", "explanation"],#,"tweetB","tweetA_vs_tweetB" ,],
+            properties={
+                "tweetA_vs_tweetB": genai.types.Schema(
+                    type=genai.types.Type.STRING,
+                ),
+                
+                "prediction": genai.types.Schema(
+                    type=genai.types.Type.STRING,
+                ),
+                "explanation": genai.types.Schema(
+                    type=genai.types.Type.STRING,
+                ),
+            },
+        ),
+    )    
+        
+     
     result = client.models.generate_content(
         model=model,
         contents=contents,

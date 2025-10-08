@@ -1,52 +1,881 @@
 [
-    "{\n    \"sentiment_type\": \"positive\",\n    \"engagement_type\": \"retweet\",\n    \"sentiment_score\": 0.95,\n    \"topic\": \"AI Model Performance\",\n    \"reason_for_engagement\": \"The tweet highlights impressive performance metrics of the nano-banana model, specifically its ranking in Image Edit and high Elo score, which is likely to generate interest and positive reactions.\",\n    \"engagement_score\": 0.82,\n    \"keywords\": [\"Gemini-2.5-flash-image\", \"AI\", \"Image Edit\", \"performance\", \"Elo score\", \"AI model\"],\n    \"target_audience\": \"AI researchers, machine learning engineers, tech enthusiasts\"\n}",
-    "{\n  \"sentiment_type\": \"neutral\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.1,\n  \"topic\": \"link sharing\",\n  \"keywords\": [\"link\", \"more information\"],\n  \"target_audience\": \"general audience\"\n}",
-    "{\n\"sentiment_type\": \"positive\",\n\"engagement_type\": \"like\",\n\"sentiment_score\": 0.85,\n\"topic\": \"Google Translate AI Features\",\n\"reason_for_engagement\": \"The tweet announces new AI-powered live translation and language practice features for Google Translate, which are likely to be well-received by users.\",\n\"engagement_score\": 0.92,\n\"keywords\": [\"Google Translate\", \"AI\", \"live translation\", \"language learning\", \"iOS\", \"Android\"],\n\"target_audience\": \"General public, language learners, travelers, users of Google Translate\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.85,\n  \"topic\": \"AI Image Editing Model Launch\",\n  \"reason_for_engagement\": \"The user expressed excitement and satisfaction with the new image editing model, highlighting its performance and showcasing examples.\",\n  \"engagement_score\": 0.92,\n  \"keywords\": [\"AI\", \"image editing\", \"Geminiapp\", \"lmarena\", \"International Dog Day\", \"dog\", \"Jeffree\"],\n  \"target_audience\": \"AI enthusiasts, users of Geminiapp, dog lovers\"\n}",
-    "{\n  \"sentiment_type\": \"neutral\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.1,\n  \"topic\": \"emoji\",\n  \"reason_for_engagement\": \"The use of multiple banana emojis can be interpreted in various ways, from simple amusement to a potential inside joke or meme. Without further context, it's difficult to assign a specific sentiment.\",\n  \"engagement_score\": 0.85,\n  \"keywords\": [\"banana\", \"emoji\", \"viral\", \"meme\", \"social media\"],\n  \"target_audience\": \"general public\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"retweet\",\n  \"sentiment_score\": 0.8,\n  \"topic\": \"Gemini Pro capabilities\",\n  \"reason_for_engagement\": \"The tweet highlights an impressive feature of Gemini Pro, which is its ability to process a large volume of text, potentially impressing users who need to work with extensive documents.\",\n  \"engagement_score\": 0.9,\n  \"keywords\": [\"Gemini Pro\", \"AI\", \"large language model\", \"text processing\", \"PDF\"],\n  \"target_audience\": \"AI enthusiasts, tech professionals, students, researchers\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"retweet\",\n  \"sentiment_score\": 0.9,\n  \"topic\": \"Gemini App Free Weekend Expansion\",\n  \"reason_for_engagement\": \"Positive response to user requests and expansion of free weekend offer.\",\n  \"engagement_score\": 0.95,\n  \"keywords\": [\"GeminiApp\", \"FreeWeekend\", \"VeoLimits\", \"Expansion\", \"UserRequests\"],\n  \"target_audience\": \"Users of Gemini App and potential new users\"\n}",
-    "{\n\"sentiment_type\": \"positive\",\n\"engagement_type\": \"like\",\n\"sentiment_score\": 0.95,\n\"topic\": \"Veo 3 promotional offer\",\n\"reason_for_engagement\": \"The tweet announces a free weekend for Veo 3, encouraging users to try it and share their creations. This positive news and the call to action likely drove engagement.\",\n\"engagement_score\": 0.88,\n\"keywords\": [\"Veo 3\", \"free weekend\", \"creative\", \"video\", \"photography\"],\n\"target_audience\": \"Content creators, photographers, videographers, and individuals interested in creative tools\"\n}",
-    "{\n  \"sentiment_type\": \"neutral\",\n  \"engagement_type\": \"retweet\",\n  \"sentiment_score\": 0.1,\n  \"topic\": \"AI efficiency\",\n  \"engagement_score\": 0.839,\n  \"keywords\": [\"AI\", \"efficiency\", \"Google\", \"technical paper\", \"methodology\"],\n  \"target_audience\": \"AI researchers and developers\"\n}",
-    "{\n  \"sentiment_type\": \"neutral\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.1,\n  \"topic\": \"Unspecified\",\n  \"engagement_score\": 193,\n  \"keywords\": [\"details\", \"link\"],\n  \"target_audience\": \"General public\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.85,\n  \"topic\": \"AI for Government\",\n  \"reason_for_engagement\": \"The tweet announces a significant partnership and product launch for government AI, which is likely to be well-received by federal employees and technology enthusiasts.\",\n  \"engagement_score\": 0.88,\n  \"keywords\": [\"Gemini for Government\", \"Google Workspace\", \"USGSA\", \"AI platform\", \"federal employees\", \"AI tools\"],\n  \"target_audience\": \"Federal employees, government IT professionals, AI enthusiasts\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.8,\n  \"topic\": \"Google Pixel phone release\",\n  \"reason_for_engagement\": \"The tweet discusses the launch of the 10th generation Pixel phone and other Google products, highlighting their AI capabilities and commitment to making AI helpful. The high number of likes suggests a positive reception from the audience, likely due to excitement about new technology and Google's AI advancements.\",\n  \"engagement_score\": 4.5,\n  \"keywords\": [\"Google\", \"Pixel\", \"AI\", \"helpful\", \"new products\", \"new devices\"],\n  \"target_audience\": \"Technology enthusiasts, Google product users, AI consumers\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"retweet\",\n  \"sentiment_score\": 0.7,\n  \"topic\": \"Google Pixel 10 launch\",\n  \"reason_for_engagement\": \"The tweet is announcing the launch of new Google Pixel phones, which is likely to generate interest and retweets among tech enthusiasts and potential customers.\",\n  \"engagement_score\": 0.85,\n  \"keywords\": [\"Google\", \"Pixel 10\", \"Pixel 10 Pro\", \"Pixel 10 Pro XL\", \"Google Tensor G5\", \"Gemini Nano\"],\n  \"target_audience\": \"Tech enthusiasts, smartphone users, potential Google Pixel customers\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.8,\n  \"topic\": \"basketball all-star lineup\",\n  \"reason_for_engagement\": \"The tweet is announcing the creation of an all-star lineup, which is a positive and exciting event for basketball fans. The mention of well-known players like MKBHD, Rosterloh, and Stephen Curry further amplifies the excitement and engagement.\",\n  \"engagement_score\": 0.75,\n  \"keywords\": [\"MKBHD\", \"Rosterloh\", \"Stephen Curry\", \"all-star\", \"lineup\", \"basketball\"],\n  \"target_audience\": \"basketball fans, followers of MKBHD, Rosterloh, and Stephen Curry\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.8,\n  \"topic\": \"AI Credits Expansion\",\n  \"reason_for_engagement\": \"The tweet announces the expansion of AI credits to Whisk in over 70 countries, which is a positive development for users.\",\n  \"engagement_score\": 0.75,\n  \"keywords\": [\"AI credits\", \"Whisk\", \"expansion\", \"countries\", \"technology\"],\n  \"target_audience\": \"Users interested in AI credits and financial technology solutions\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.95,\n  \"topic\": \"AI for Filmmakers\",\n  \"reason_for_engagement\": \"The tweet announces a significant milestone of 100 million videos created with Flow by Google and a new benefit for Ultra Subscribers, which likely resonates positively with users and potential customers.\",\n  \"engagement_score\": 0.88,\n  \"keywords\": [\"Flow by Google\", \"AI\", \"filmmakers\", \"milestone\", \"Ultra Subscribers\", \"AI credits\"],\n  \"target_audience\": \"Filmmakers and content creators, particularly those using or interested in Flow by Google's AI features.\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.8,\n  \"topic\": \"Humor/Appreciation\",\n  \"reason_for_engagement\": \"The user is expressing amusement and appreciation for the tweet.\",\n  \"engagement_score\": 0.9,\n  \"keywords\": [\"LOL\", \"funny\", \"appreciation\"],\n  \"target_audience\": \"General Audience\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.85,\n  \"topic\": \"Economic Development and Investment\",\n  \"reason_for_engagement\": \"The tweet highlights positive investments in local communities and their benefits, likely resonating with people who support economic growth and community development.\",\n  \"engagement_score\": 4.1,\n  \"keywords\": [\"investment\", \"data center\", \"Oklahoma\", \"Pryor\", \"Stillwater\", \"schools\", \"businesses\", \"economic development\"],\n  \"target_audience\": \"Residents of Oklahoma, business owners, community leaders, individuals interested in economic development and technology infrastructure.\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.85,\n  \"topic\": \"Google Calendar Feature Update\",\n  \"reason_for_engagement\": \"The user is happy about a new feature being released on Google Calendar.\",\n  \"engagement_score\": 0.92,\n  \"keywords\": [\"Google Calendar\", \"feature\", \"live\", \"web\", \"suggestion\"],\n  \"target_audience\": \"Google Calendar Users\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"retweet\",\n  \"sentiment_score\": 0.95,\n  \"topic\": \"AI advancement\",\n  \"reason_for_engagement\": \"The tweet expresses excitement and pride about recent advancements in AI technology, specifically mentioning the release of Genie 3, which is described as the most advanced world simulator. This would likely resonate with people interested in AI and technology.\",\n  \"engagement_score\": 0.88,\n  \"keywords\": [\"AI\", \"Genie 3\", \"world simulator\", \"relentless\", \"advancement\"],\n  \"target_audience\": \"AI enthusiasts, researchers, tech industry professionals\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.8,\n  \"topic\": \"New feature launch\",\n  \"reason_for_engagement\": \"The announcement of a new Guided Learning mode in the Gemini app, along with a student offer, likely generated positive interest and engagement.\",\n  \"engagement_score\": 0.75,\n  \"keywords\": [\"Gemini app\", \"Guided Learning\", \"student offer\", \"new feature\"],\n  \"target_audience\": \"Students, users interested in learning tools\"\n}",
-    "{\n    \"sentiment_type\": \"positive\",\n    \"engagement_type\": \"like\",\n    \"sentiment_score\": 0.95,\n    \"topic\": \"AI in education\",\n    \"reason_for_engagement\": \"The tweet announces a generous initiative providing free AI tools and funding for education, which is likely to be well-received by students and researchers.\",\n    \"engagement_score\": 4.8,\n    \"keywords\": [\"AI tools\", \"college students\", \"education funding\", \"free AI training\", \"career training\"],\n    \"target_audience\": \"College students, educators, researchers\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"retweet\",\n  \"sentiment_score\": 0.8,\n  \"topic\": \"AI world simulation\",\n  \"reason_for_engagement\": \"The tweet announces a significant advancement in AI, specifically the ability to generate interactive world simulations from text prompts, which is likely to be met with excitement and interest from the tech community and the general public.\",\n  \"engagement_score\": 0.95,\n  \"keywords\": [\"AI\", \"simulation\", \"world generation\", \"text prompt\", \"Genie 3\"],\n  \"target_audience\": \"AI enthusiasts, tech community, researchers\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.9,\n  \"topic\": \"Genie 3\",\n  \"reason_for_engagement\": \"The user is expressing strong positive sentiment towards Genie 3, using the fire emoji to indicate it's excellent or impressive.\",\n  \"engagement_score\": 0.8,\n  \"keywords\": [\"Genie 3\", \"fire emoji\", \"positive sentiment\"],\n  \"target_audience\": \"General audience interested in technology or AI\"\n}",
-    "{\n  \"sentiment_type\": \"neutral\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.1,\n  \"topic\": \"Unspecified\",\n  \"engagement_score\": 185,\n  \"keywords\": [\"details\", \"link\"],\n  \"target_audience\": \"general\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.8,\n  \"topic\": \"AI and Mathematics\",\n  \"reason_for_engagement\": \"The tweet announces a significant advancement in AI capabilities, specifically in mathematics and scientific literature processing, which is likely to be well-received by tech enthusiasts and academics.\",\n  \"engagement_score\": 0.75,\n  \"keywords\": [\"Deep Think\", \"IMO\", \"Ultra subscribers\", \"Geminiapp\", \"AI\", \"mathematics\", \"scientific literature\", \"coding\"],\n  \"target_audience\": \"Tech enthusiasts, AI researchers, mathematicians, Gemini app users, and potentially students or professionals dealing with complex scientific or coding problems.\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.8,\n  \"topic\": \"Elon Musk\",\n  \"reason_for_engagement\": \"The tweet expresses gratitude or admiration towards Elon Musk, indicated by the prayer hands emoji. The high number of likes and replies suggests a positive reception and engagement from the audience.\",\n  \"engagement_score\": 0.7,\n  \"keywords\": [\"Elon Musk\", \"gratitude\", \"admiration\", \"positive reception\"],\n  \"target_audience\": \"Elon Musk followers, tech enthusiasts\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.9,\n  \"topic\": \"Artificial General Intelligence (AGI)\",\n  \"reason_for_engagement\": \"The tweet expresses excitement and optimism about future progress in AGI and a commitment to ensuring its benefits for everyone, which likely resonated well with the audience.\",\n  \"engagement_score\": 0.85,\n  \"keywords\": [\"AGI\", \"future\", \"progress\", \"beneficial\", \"optimism\", \"technology\"],\n  \"target_audience\": \"Tech enthusiasts, AI researchers, general public interested in future technologies\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.8,\n  \"topic\": \"revenue growth\",\n  \"reason_for_engagement\": \"The tweet highlights positive revenue growth resulting from valuable services, which is likely to resonate well with a business-oriented audience.\",\n  \"engagement_score\": 0.9,\n  \"keywords\": [\"revenue growth\", \"valuable services\", \"customers\", \"partners\"],\n  \"target_audience\": \"Business professionals, investors, customers and partners interested in the company's financial performance and service offerings.\"\n}",
-    "{\n\"sentiment_type\": \"positive\",\n\"engagement_type\": \"like\",\n\"sentiment_score\": 0.9,\n\"topic\": \"AI development\",\n\"reason_for_engagement\": \"The tweet highlights the company's long-term, deliberate approach to building its AI stack, which has led to its current strong position. This message of strategic planning and successful execution is likely to resonate positively with followers interested in AI and business strategy.\",\n\"engagement_score\": 0.85,\n\"keywords\": [\"AI\", \"development\", \"strategy\", \"technology\", \"innovation\", \"business\"],\n\"target_audience\": \"AI enthusiasts, tech investors, business professionals\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.8,\n  \"topic\": \"Search evolution and AI integration\",\n  \"reason_for_engagement\": \"The tweet highlights significant advancements in Search, particularly the integration of AI, which is likely to be well-received by users interested in technology and innovation.\",\n  \"engagement_score\": 0.75,\n  \"keywords\": [\"Search\", \"AI\", \"Lens\", \"Circle to Search\", \"AI Overviews\", \"AI Mode\", \"innovation\"],\n  \"target_audience\": \"Technology enthusiasts, AI researchers, general users of search engines\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.9,\n  \"topic\": \"Alphabet earnings call and growth\",\n  \"reason_for_engagement\": \"The tweet discusses a successful earnings call and highlights the significant growth of Alphabet's new businesses over the past 10 years.\",\n  \"engagement_score\": 0.85,\n  \"keywords\": [\"Alphabet\", \"earnings call\", \"growth\", \"Cloud\", \"YouTube\", \"Play\", \"Subscriptions\", \"10 years\"],\n  \"target_audience\": \"Investors, employees, tech enthusiasts\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"retweet\",\n  \"sentiment_score\": 0.8,\n  \"topic\": \"Google earnings call\",\n  \"keywords\": [\"Sundar Pichai\", \"Google\", \"earnings call\", \"growth\", \"usage\"],\n  \"target_audience\": \"investors, tech enthusiasts\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.8,\n  \"topic\": \"Company Earnings\",\n  \"reason_for_engagement\": \"Positive announcement about quarterly performance and employee appreciation\",\n  \"engagement_score\": 424.0,\n  \"keywords\": [\"earnings\", \"quarter\", \"employees\", \"thanks\", \"transcript\", \"remarks\"],\n  \"target_audience\": \"Investors and Employees\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.92,\n  \"topic\": \"Google product releases\",\n  \"reason_for_engagement\": \"The tweet details rapid product advancements and performance achievements, likely resonating with users interested in AI and Google's latest offerings.\",\n  \"engagement_score\": 0.85,\n  \"keywords\": [\"Gemini\", \"AI\", \"Google Photos\", \"YouTube Shorts\", \"product releases\", \"performance\"],\n  \"target_audience\": \"Tech enthusiasts, AI developers, Google users\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.8,\n  \"topic\": \"AI Growth\",\n  \"reason_for_engagement\": \"The tweet highlights significant growth in AI usage and user engagement, demonstrating the company's progress and adoption of AI technologies.\",\n  \"engagement_score\": 0.75,\n  \"keywords\": [\"AI\", \"growth\", \"products\", \"platforms\", \"tokens\", \"AI Overviews\", \"Search\", \"users\", \"countries\", \"languages\"],\n  \"target_audience\": \"Investors, AI enthusiasts, Tech community\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.95,\n  \"topic\": \"Company Financial Performance\",\n  \"reason_for_engagement\": \"The tweet highlights strong growth and leadership in AI, which is likely to resonate positively with investors and stakeholders.\",\n  \"engagement_score\": 0.88,\n  \"keywords\": [\"Q2\", \"growth\", \"AI\", \"Search\", \"YouTube\", \"Cloud\", \"revenue\"],\n  \"target_audience\": \"Investors and Stakeholders\"\n}",
-    "{\n  \"sentiment_type\": \"neutral\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.1,\n  \"topic\": \"Google Photos and YouTube Shorts features\",\n  \"engagement_score\": 0.02,\n  \"keywords\": [\"Google Photos\", \"YouTube Shorts\", \"features\", \"availability\"],\n  \"target_audience\": \"General audience interested in Google products\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.8,\n  \"topic\": \"Gemini App AI Features\",\n  \"reason_for_engagement\": \"Excitement about new AI-powered features for photo and video editing, with planned expansion to YouTube Shorts and Google Photos.\",\n  \"engagement_score\": 1664.0,\n  \"keywords\": [\"Gemini app\", \"AI\", \"photos\", \"videos\", \"YouTube Shorts\", \"Google Photos\", \"Remix\"],\n  \"target_audience\": \"Users interested in AI, photo/video editing, and Google products.\"\n}",
-    "{\n  \"sentiment_type\": \"neutral\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.0,\n  \"topic\": \"General Information\",\n  \"engagement_score\": 0.0,\n  \"keywords\": [\"details\", \"link\"],\n  \"target_audience\": \"General Public\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.85,\n  \"topic\": \"Gemini 2.5 Flash-Lite\",\n  \"reason_for_engagement\": \"The tweet announces the general availability of Gemini 2.5 Flash-Lite, highlighting its speed and cost-efficiency, which is likely to be well-received by developers and users looking for advanced AI models.\",\n  \"engagement_score\": 0.92,\n  \"keywords\": [\"Gemini 2.5 Flash-Lite\", \"AI model\", \"fast\", \"cost-efficient\", \"Google AI Studio\", \"Vertex AI\"],\n  \"target_audience\": \"Developers, AI enthusiasts, businesses using AI\"\n}",
-    "{\n\"sentiment_type\": \"positive\",\n\"engagement_type\": \"like\",\n\"sentiment_score\": 0.85,\n\"topic\": \"Appreciation\",\n\"reason_for_engagement\": \"The tweet expresses thanks, which generally garners positive engagement.\",\n\"engagement_score\": 0.92,\n\"keywords\": [\"thanks\", \"elonmusk\", \"googledeepmind\"],\n\"target_audience\": \"elonmusk, googledeepmind, general audience interested in AI/tech\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"retweet\",\n  \"sentiment_score\": 0.8,\n  \"topic\": \"Artificial Intelligence\",\n  \"reason_for_engagement\": \"The tweet is about a significant advancement in AI technology announced at Google I/O, which is likely to generate interest and positive reception within the tech community.\",\n  \"engagement_score\": 0.9,\n  \"keywords\": [\"Gemini\", \"Deep Think\", \"GoogleIO\", \"AI\", \"parallel inference\", \"gold-medal\"],\n  \"target_audience\": \"Technology enthusiasts, AI researchers, Google followers\"\n}",
-    "{\n\"sentiment_type\": \"positive\",\n\"engagement_type\": \"like\",\n\"sentiment_score\": 0.95,\n\"topic\": \"Artificial Intelligence and Mathematical Reasoning\",\n\"reason_for_engagement\": \"The tweet expresses admiration and congratulations for the rapid progress in mathematical reasoning achieved by Google DeepMind.\",\n\"engagement_score\": 0.9,\n\"keywords\": [\"Google DeepMind\", \"mathematical reasoning\", \"progress\", \"AI\", \"technology\"],\n\"target_audience\": \"Tech enthusiasts, AI researchers, mathematicians, followers of Google DeepMind\"\n}",
-    "{\n  \"sentiment_type\": \"neutral\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.1,\n  \"topic\": \"link sharing\",\n  \"engagement_score\": 0.24,\n  \"keywords\": [\"details\", \"link\"],\n  \"target_audience\": \"general public\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.9,\n  \"topic\": \"Gemini API\",\n  \"reason_for_engagement\": \"The tweet announces a new feature for the Gemini API, which is likely to be well-received by developers.\",\n  \"engagement_score\": 4.5,\n  \"keywords\": [\"Gemini API\", \"Veo 3\", \"text to video\", \"developers\"],\n  \"target_audience\": \"Developers and AI enthusiasts\"\n}",
-    "{\n  \"sentiment_type\": \"neutral\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.1,\n  \"topic\": \"Product Features and Availability\",\n  \"reason_for_engagement\": \"The tweet provides a link to more details about product features and availability, which is informative and useful for potential customers.\",\n  \"engagement_score\": 0.5,\n  \"keywords\": [\"features\", \"availability\", \"details\", \"product\", \"link\"],\n  \"target_audience\": \"Potential customers interested in the product\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.8,\n  \"topic\": \"AI in Search\",\n  \"reason_for_engagement\": \"The user is excited about the new AI features in Google Search, particularly Gemini 2.5 Pro and Deep Search, which are designed to handle complex questions and research. The mention of AI-powered calling also adds to the perceived value.\",\n  \"engagement_score\": 0.9,\n  \"keywords\": [\"AI\", \"Search\", \"Gemini 2.5 Pro\", \"Deep Search\", \"AI Mode\", \"Google AI Pro\", \"Ultra subscribers\", \"AI-powered calling\"],\n  \"target_audience\": \"Tech enthusiasts, Google subscribers, users interested in AI advancements\"\n}",
-    "{\n  \"sentiment_type\": \"positive\",\n  \"engagement_type\": \"retweet\",\n  \"sentiment_score\": 0.8,\n  \"topic\": \"ChromeOS development\",\n  \"engagement_score\": 0.71,\n  \"keywords\": [\"ChromeOS\", \"announcement\", \"blog post\", \"development\"],\n  \"target_audience\": \"Tech enthusiasts, ChromeOS users\"\n}",
-    "{\n  \"sentiment_type\": \"neutral\",\n  \"engagement_type\": \"like\",\n  \"sentiment_score\": 0.1,\n  \"topic\": \"Security\",\n  \"reason_for_engagement\": \"The tweet provides a link to more details about Big Sleep and their security work, which is likely of interest to people following the company or interested in security matters.\",\n  \"engagement_score\": 0.73,\n  \"keywords\": [\"Big Sleep\", \"security\", \"latest work\"],\n  \"target_audience\": \"Individuals interested in Big Sleep and cybersecurity\"\n}"
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "retweet",
+        "sentiment_score": 0.95,
+        "topic": "AI Image Editing",
+        "reason_for_engagement": "The tweet highlights the impressive performance of nano-banana (Gemini-2.5-flash-image) in image editing and its high user engagement.",
+        "engagement_score": 0.82,
+        "keywords": [
+            "nano-banana",
+            "Gemini-2.5-flash-image",
+            "AI",
+            "Image Editing",
+            "Elo score",
+            "votes"
+        ],
+        "target_audience": "AI enthusiasts, tech community, developers",
+        "tweet": "RT @infwinston: nano-banana (Gemini-2.5-flash-image) is unreal.\n\n- #1 in Image Edit with massive 170 Elo score lead\n- Drove 5M+ votes in 2\u2026"
+    },
+    {
+        "sentiment_type": "neutral",
+        "engagement_type": "like",
+        "sentiment_score": 0.1,
+        "topic": "Link sharing",
+        "engagement_score": 0.2,
+        "keywords": [
+            "link",
+            "sharing",
+            "information"
+        ],
+        "target_audience": "General audience",
+        "tweet": "More here:\u00a0https://t.co/tJO4nAQEgL"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.85,
+        "topic": "Google Translate AI",
+        "reason_for_engagement": "Excitement about the new AI-powered live translation and language practice features.",
+        "engagement_score": 0.92,
+        "keywords": [
+            "Google Translate",
+            "AI",
+            "live translation",
+            "language learning",
+            "app update",
+            "iOS",
+            "Android"
+        ],
+        "target_audience": "Google Translate users, language learners, tech enthusiasts",
+        "tweet": "Every month, people use Google to translate around 1 trillion words. Today, we\u2019re introducing a new AI-powered live translation experience in the Google Translate app, plus a new beta feature to help you practice new languages. Rolling out now on iOS + Android. https://t.co/0DvKYqbSTV"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.95,
+        "topic": "AI Image Editing Model",
+        "reason_for_engagement": "The tweet announces the rollout of a new image editing model, highlighting its performance and features. It also uses a relatable example (dog photos for International Dog Day) to engage the audience.",
+        "engagement_score": 0.85,
+        "keywords": [
+            "AI",
+            "image editing",
+            "model",
+            "Geminiapp",
+            "lmarena",
+            "leaderboard",
+            "likeness",
+            "International Dog Day",
+            "dog"
+        ],
+        "target_audience": "AI enthusiasts, users of Geminiapp, people interested in image editing technology, dog lovers",
+        "tweet": "Our image editing model is now rolling out in @Geminiapp - and yes, it\u2019s \ud83c\udf4c\ud83c\udf4c. Top of @lmarena\u2019s image edit leaderboard, it\u2019s especially good at maintaining likeness across different contexts. Check out a few of my dog Jeffree in honor of International Dog Day - though don\u2019t let https://t.co/8Y45DawZBc"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.8,
+        "topic": "emoji usage",
+        "reason_for_engagement": "The use of multiple banana emojis is often interpreted as playful, humorous, or indicating excitement, leading to high engagement.",
+        "engagement_score": 0.9,
+        "keywords": [
+            "banana emoji",
+            "playful",
+            "humor",
+            "excitement",
+            "viral"
+        ],
+        "target_audience": "General audience, social media users",
+        "tweet": "\ud83c\udf4c\ud83c\udf4c\ud83c\udf4c"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "retweet",
+        "sentiment_score": 0.8,
+        "topic": "Gemini Pro capabilities",
+        "reason_for_engagement": "The tweet highlights a significant and impressive feature of Gemini Pro, which is its ability to process a large amount of text, implying efficiency and advanced functionality. This would likely resonate with users interested in AI and productivity tools.",
+        "engagement_score": 0.9,
+        "keywords": [
+            "Gemini Pro",
+            "AI",
+            "large language models",
+            "text processing",
+            "document analysis",
+            "efficiency",
+            "technology"
+        ],
+        "target_audience": "AI enthusiasts, technology professionals, researchers, students, anyone interested in productivity tools",
+        "tweet": "RT @AiBreakfast: Gemini Pro doesn't get enough credit for being able to upload 1500+ pages of text to reference (several textbooks in PDF f\u2026"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "retweet",
+        "sentiment_score": 0.8,
+        "topic": "Gemini App Free Weekend Expansion",
+        "reason_for_engagement": "The tweet announces an expansion of the free weekend for the Gemini App, doubling limits for a limited time, which is likely to be well-received by users.",
+        "engagement_score": 0.95,
+        "keywords": [
+            "GeminiApp",
+            "FreeWeekend",
+            "VeoLimits",
+            "Expansion",
+            "TechDeal"
+        ],
+        "target_audience": "Users of Gemini App and potential new users interested in the service",
+        "tweet": "RT @joshwoodward: @GeminiApp Free Weekend expands!\n\nA lot of you asked us to double the Veo limits for the next ~24 hours, let's do it\n\nFre\u2026"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.8,
+        "topic": "Veo 3 free weekend",
+        "reason_for_engagement": "The tweet announces a free weekend for Veo 3, encouraging users to try it and share their creations. The high engagement metrics suggest a positive reception and excitement within the community.",
+        "engagement_score": 0.7,
+        "keywords": [
+            "Veo 3",
+            "free weekend",
+            "creativity",
+            "filmmaking",
+            "technology"
+        ],
+        "target_audience": "Filmmakers, content creators, technology enthusiasts",
+        "tweet": "Veo 3 is now free for the weekend for everyone to try\u00a0 - can\u2019t wait to see what you\u2019ll create!\u00a0\ud83c\udfac https://t.co/vF1lnGMklk"
+    },
+    {
+        "sentiment_type": "neutral",
+        "engagement_type": "retweet",
+        "sentiment_score": 0.1,
+        "topic": "AI efficiency",
+        "reason_for_engagement": "The tweet is a retweet of a technical paper about AI efficiency, which is a topic of interest in the tech community.",
+        "engagement_score": 0.839,
+        "keywords": [
+            "AI",
+            "efficiency",
+            "Google",
+            "technical paper",
+            "methodology"
+        ],
+        "target_audience": "Tech professionals, AI researchers, engineers",
+        "tweet": "RT @JeffDean: AI efficiency is important. Today, Google is sharing a technical paper detailing our comprehensive methodology for measuring\u2026"
+    },
+    {
+        "sentiment_type": "neutral",
+        "engagement_type": "like",
+        "sentiment_score": 0.1,
+        "topic": "Information Dissemination",
+        "reason_for_engagement": "User is sharing a link with more details.",
+        "engagement_score": 0.4,
+        "keywords": [
+            "details",
+            "link",
+            "information"
+        ],
+        "target_audience": "General Public",
+        "tweet": "More details here: https://t.co/Bzxyq01GKT"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.85,
+        "topic": "AI platform for government",
+        "reason_for_engagement": "The tweet announces a new partnership and product launch, which is generally perceived positively by the public, especially those interested in technological advancements and government services.",
+        "engagement_score": 0.78,
+        "keywords": [
+            "Gemini for Government",
+            "Google Workspace",
+            "USGSA",
+            "AI platform",
+            "federal employees",
+            "NotebookLM",
+            "Veo"
+        ],
+        "target_audience": "Federal employees, government agencies, tech enthusiasts, general public interested in AI and government services",
+        "tweet": "Building on our @GoogleWorkspace offer for federal employees, we\u2019re proud to partner with the @USGSA to launch Gemini for Government. More than a model, it\u2019s our complete AI platform with our latest AI tools, including NotebookLM and Veo, powered by our latest models and our"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.89,
+        "topic": "Google Pixel AI features",
+        "reason_for_engagement": "The user is excited about the new Google Pixel devices and AI features, highlighting the continuous innovation and helpfulness of Google's products.",
+        "engagement_score": 0.75,
+        "keywords": [
+            "Google",
+            "Pixel",
+            "AI",
+            "new devices",
+            "helpful",
+            "innovation"
+        ],
+        "target_audience": "Tech enthusiasts, Google product users, AI interested individuals",
+        "tweet": "Made by Google and the 10th (!) generation Pixel just capped off a summer of shipping for teams at Google. Week after week - new models, new products and features, and now, new devices, all with the goal of making AI truly helpful to you, wherever you need it. We\u2019re not slowing https://t.co/4ULK2k7ceE"
+    },
+    {
+        "sentiment_type": "neutral",
+        "engagement_type": "retweet",
+        "sentiment_score": 0.1,
+        "topic": "Google Pixel 10 launch",
+        "engagement_score": 0.8,
+        "keywords": [
+            "Google",
+            "Pixel 10",
+            "Pixel 10 Pro",
+            "Pixel 10 Pro XL",
+            "Google Tensor G5",
+            "Gemini Nano"
+        ],
+        "target_audience": "Tech enthusiasts, Google fans, smartphone users",
+        "tweet": "RT @Google: Meet Pixel 10, Pixel 10 Pro and Pixel 10 Pro XL. Powered by our new Google Tensor G5 chip and our latest Gemini Nano model, the\u2026"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.9,
+        "topic": "All-Star Lineup",
+        "engagement_score": 0.85,
+        "keywords": [
+            "MKBHD",
+            "rosterloh",
+            "StephenCurry30",
+            "all star lineup"
+        ],
+        "target_audience": "Basketball and tech enthusiasts",
+        "tweet": "@MKBHD @rosterloh @StephenCurry30 Putting together an all star lineup \ud83d\ude09"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.8,
+        "topic": "AI credits and Whisk expansion",
+        "reason_for_engagement": "The tweet announces an expansion of AI credits to more countries through Whisk, which is generally seen as positive news.",
+        "engagement_score": 0.65,
+        "keywords": [
+            "AI credits",
+            "Whisk",
+            "expansion",
+            "countries"
+        ],
+        "target_audience": "General public interested in technology and global business expansion.",
+        "tweet": "AI credits can also be used in Whisk, which is expanding to 70+ countries - more details on it all here: https://t.co/xVlfsC7zgP"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.95,
+        "topic": "AI for filmmakers",
+        "reason_for_engagement": "The tweet announces a significant milestone for Flow by Google and offers a special promotion for Ultra Subscribers, which is likely to be well-received by the target audience.",
+        "engagement_score": 0.88,
+        "keywords": [
+            "Flow by Google",
+            "AI",
+            "filmmakers",
+            "milestone",
+            "Ultra Subscribers",
+            "AI credits"
+        ],
+        "target_audience": "Filmmakers, content creators, Google users, AI enthusiasts",
+        "tweet": "100M videos created in @FlowbyGoogle - our AI for filmmakers - since May!\u00a0\n\nHuge milestone, and now Ultra Subscribers get 2X the AI credits to keep the creativity flowing -\u00a0https://t.co/EqAEJURSfg https://t.co/lcVJJkb67s"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.8,
+        "topic": "Humor",
+        "reason_for_engagement": "The user is expressing amusement.",
+        "engagement_score": 0.75,
+        "keywords": [
+            "laughing",
+            "funny",
+            "amused",
+            "joyful"
+        ],
+        "target_audience": "General Audience",
+        "tweet": "@levie @collision \ud83d\ude02"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.85,
+        "topic": "Economic Investment and Community Development",
+        "reason_for_engagement": "The tweet highlights a significant investment in Oklahoma, focusing on the positive impact on local schools and businesses, which likely resonates with the local community and those interested in economic development.",
+        "engagement_score": 0.92,
+        "keywords": [
+            "Oklahoma",
+            "Pryor",
+            "Stillwater",
+            "investment",
+            "data center",
+            "schools",
+            "businesses",
+            "economic development"
+        ],
+        "target_audience": "Residents of Oklahoma, local businesses, investors, and individuals interested in economic development and technology infrastructure.",
+        "tweet": "I had the chance to visit Pryor, OK, a few years back to see how our data center investments were benefiting local schools and businesses. Proud to invest another $9B over two years in Oklahoma, including in Pryor + a new facility in Stillwater, communities that are vital engines"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.9,
+        "topic": "Google Calendar Feature Update",
+        "engagement_score": 0.85,
+        "keywords": [
+            "Google Calendar",
+            "feature",
+            "live",
+            "web",
+            "suggestion",
+            "update"
+        ],
+        "target_audience": "Google Calendar Users",
+        "tweet": "@collision This feature is now live for everyone on Google Calendar on the web - thanks for the suggestion!"
+    },
+    {
+        "sentiment_type": "motivational",
+        "engagement_type": "retweet",
+        "sentiment_score": 0.85,
+        "topic": "AI advancement",
+        "reason_for_engagement": "The tweet highlights significant achievements in AI development, specifically mentioning the release of Genie 3, which is described as the most advanced world simulator. This would motivate others in the field.",
+        "engagement_score": 0.92,
+        "keywords": [
+            "AI",
+            "Genie 3",
+            "world simulator",
+            "relentless",
+            "technology",
+            "innovation"
+        ],
+        "target_audience": "AI researchers, tech enthusiasts, general public interested in AI",
+        "tweet": "RT @demishassabis: One word: relentless. just in the past two weeks, we\u2019ve shipped:\n\n\ud83c\udf10 Genie 3 - the most advanced world simulator ever\n\ud83e\udd14 G\u2026"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.85,
+        "topic": "App Update and Student Offer",
+        "reason_for_engagement": "The tweet announces a new feature and a student offer, which are likely to be well-received by users.",
+        "engagement_score": 0.78,
+        "keywords": [
+            "Geminiapp",
+            "Guided Learning",
+            "student offer",
+            "new feature"
+        ],
+        "target_audience": "Students and users of the Geminiapp",
+        "tweet": "Plus, we\u2019re launching a new Guided Learning mode in the @Geminiapp.\u00a0 Get all the details here:\u00a0https://t.co/Eg54d84frF\n\nAccess the student offer here:\u00a0https://t.co/kBMn2SGeyY"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.85,
+        "topic": "AI education and funding",
+        "reason_for_engagement": "The tweet announces exciting news about making AI tools free for students and providing significant funding for education and research, which is likely to be well-received.",
+        "engagement_score": 0.92,
+        "keywords": [
+            "AI tools",
+            "college students",
+            "free",
+            "education",
+            "funding",
+            "research",
+            "career training"
+        ],
+        "target_audience": "College students, educators, researchers, and the general public interested in AI and education.",
+        "tweet": "Excited to make our best AI tools free for college students in the US + other select countries for a year - and to provide $1B in funding for education + research, including free AI and career training for every college student in America. https://t.co/THiMOrwT1m"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "retweet",
+        "sentiment_score": 0.8,
+        "topic": "AI",
+        "reason_for_engagement": "The tweet is about a new AI advancement that generates interactive world simulations, which is exciting for the AI community.",
+        "engagement_score": 0.9,
+        "keywords": [
+            "AI",
+            "Genie 3",
+            "world simulation",
+            "text prompt",
+            "real-time interaction",
+            "demishassabis"
+        ],
+        "target_audience": "AI enthusiasts, tech community, researchers",
+        "tweet": "RT @demishassabis: Genie 3 is here - it can generate an entire world simulation that you can interact with in real-time, just from a text p\u2026"
+    },
+    {
+        "sentiment_type": "excited",
+        "engagement_type": "like",
+        "sentiment_score": 0.95,
+        "topic": "Genie 3 launch",
+        "engagement_score": 0.88,
+        "keywords": [
+            "Genie 3",
+            "tech",
+            "launch",
+            "exciting"
+        ],
+        "target_audience": "tech enthusiasts",
+        "tweet": "Genie 3 is \ud83d\udd25 https://t.co/to5UCOTVGM"
+    },
+    {
+        "sentiment_type": "neutral",
+        "engagement_type": "like",
+        "sentiment_score": 0.1,
+        "topic": "article link",
+        "reason_for_engagement": "The tweet is just a link to an article, so the engagement is likely driven by interest in the article content rather than the tweet itself.",
+        "engagement_score": 4.5,
+        "keywords": [
+            "article",
+            "link",
+            "details"
+        ],
+        "target_audience": "general audience",
+        "tweet": "More details:\u00a0https://t.co/RRFtTKiM3f"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.85,
+        "topic": "AI in Scientific Research",
+        "reason_for_engagement": "The tweet announces a significant advancement in AI capabilities, making a high-performing tool available to Ultra subscribers and researchers, which is likely to be well-received by the target audience.",
+        "engagement_score": 0.92,
+        "keywords": [
+            "Deep Think",
+            "IMO",
+            "Ultra subscribers",
+            "Geminiapp",
+            "mathematicians",
+            "scientific literature",
+            "coding problem",
+            "AI",
+            "research"
+        ],
+        "target_audience": "AI enthusiasts, Gemini app users, researchers, mathematicians, programmers",
+        "tweet": "We\u2019re bringing a version of Deep Think that achieved gold-medal status at IMO to Ultra subscribers in the @Geminiapp (+ the official version is now in the hands of mathematicians).\u00a0\n\nToggle it on when reasoning through complex scientific literature, tackling a coding problem that https://t.co/OyFSGsQSgJ"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.85,
+        "topic": "Elon Musk acknowledgement",
+        "reason_for_engagement": "The tweet expresses gratitude or positive acknowledgement towards Elon Musk.",
+        "engagement_score": 0.65,
+        "keywords": [
+            "Elon Musk",
+            "gratitude",
+            "positive"
+        ],
+        "target_audience": "Elon Musk and his followers",
+        "tweet": "@elonmusk \ud83d\ude4f"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.95,
+        "topic": "Artificial General Intelligence (AGI)",
+        "reason_for_engagement": "The tweet expresses excitement and optimism about future progress in AGI and a commitment to making it beneficial for everyone.",
+        "engagement_score": 0.88,
+        "keywords": [
+            "AGI",
+            "future",
+            "progress",
+            "technology",
+            "innovation",
+            "beneficial"
+        ],
+        "target_audience": "General public interested in technology and the future of AI",
+        "tweet": "@theinformation Excited for everything that\u2019s coming into view for the next decade, especially the progress towards AGI - and we\u2019re going to work hard to make sure it\u2019s beneficial for everyone. Onwards!"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.85,
+        "topic": "Business Growth and Customer Value",
+        "reason_for_engagement": "The tweet highlights positive revenue growth driven by valuable services, which likely resonates with an audience interested in business success and customer satisfaction.",
+        "engagement_score": 0.92,
+        "keywords": [
+            "revenue growth",
+            "valuable services",
+            "customers",
+            "partners",
+            "business success"
+        ],
+        "target_audience": "Business professionals, entrepreneurs, investors, and individuals interested in the technology or business sector covered by @theinformation.",
+        "tweet": "@theinformation And of course there\u2019s the revenue growth from providing highly valuable services to our customers + partners. https://t.co/AvwCX4ZaX9"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.85,
+        "topic": "AI development",
+        "reason_for_engagement": "The tweet highlights a decade of deliberate and meticulous AI stack development, which is likely to be perceived positively by those interested in the progress and future of AI. The mention of being well-positioned implies success and expertise.",
+        "engagement_score": 0.75,
+        "keywords": [
+            "AI stack",
+            "development",
+            "decade",
+            "progress",
+            "technology",
+            "innovation"
+        ],
+        "target_audience": "Tech enthusiasts, AI professionals, investors, followers of The Information",
+        "tweet": "For the last 10 years, we\u2019ve deliberately and meticulously built every layer of the AI stack, which has positioned us so well today.\u00a0 (h/t @TheInformation) https://t.co/6IYXwM2MWU"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.85,
+        "topic": "Google Search AI advancements",
+        "reason_for_engagement": "The tweet highlights significant improvements and new features in Google Search, particularly those powered by AI, which are likely to be well-received by users interested in technology and innovation.",
+        "engagement_score": 0.92,
+        "keywords": [
+            "Google Search",
+            "AI",
+            "Circle to Search",
+            "AI Overviews",
+            "AI Mode",
+            "technology",
+            "innovation"
+        ],
+        "target_audience": "Tech enthusiasts, Google users, AI interested individuals",
+        "tweet": "Then there\u2019s the remarkable evolution in Search. We\u2019ve created entirely new ways to search like Lens + Circle to Search, and we keep incorporating our most advanced AI models. Now AI Overviews and AI Mode are reimagining the types of queries people can ask and we can answer. The https://t.co/L0zM9yXB54"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.95,
+        "topic": "Alphabet Earnings Call and Growth",
+        "reason_for_engagement": "The tweet highlights a successful earnings call and the significant growth of Alphabet's new businesses over the past decade.",
+        "engagement_score": 0.88,
+        "keywords": [
+            "Alphabet",
+            "earnings call",
+            "growth",
+            "Cloud",
+            "YouTube",
+            "Play",
+            "Subscriptions",
+            "10 years"
+        ],
+        "target_audience": "Investors, Tech Enthusiasts, Employees",
+        "tweet": "Just got off the earnings call - great quarter and it was our (and my) 40th call as Alphabet. \n\nAugust will mark 10 years since we announced Alphabet. Been thinking about the incredible growth in our new businesses since then - Cloud, YouTube, Play, Subscriptions etc. To give a"
+    },
+    {
+        "sentiment_type": "neutral",
+        "engagement_type": "retweet",
+        "sentiment_score": 0.1,
+        "topic": "Google Earnings Call",
+        "reason_for_engagement": "The tweet shares a quote from Sundar Pichai regarding Google's usage growth, likely to inform or discuss business performance.",
+        "engagement_score": 0.65,
+        "keywords": [
+            "Sundar Pichai",
+            "Google",
+            "earnings call",
+            "usage growth",
+            "I/O"
+        ],
+        "target_audience": "Investors, tech enthusiasts, Google followers",
+        "tweet": "RT @AndrewCurran_: Sundar Pichai on the earnings call: \n- 'The growth in usage has been incredible. At I/O in May we announced that we proc\u2026"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.85,
+        "topic": "Company Earnings",
+        "reason_for_engagement": "The tweet expresses gratitude and shares positive financial results, which is likely to be well-received by stakeholders.",
+        "engagement_score": 0.75,
+        "keywords": [
+            "earnings",
+            "quarter",
+            "employees",
+            "thanks",
+            "transcript"
+        ],
+        "target_audience": "Investors, Employees, General Public interested in company performance",
+        "tweet": "4/ Great quarter, thanks to our employees around the world.\u00a0\n\nRead a full transcript of my remarks from today\u2019s earnings call:\u00a0https://t.co/ncm6ESulac"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.95,
+        "topic": "Product Updates and Releases",
+        "reason_for_engagement": "The tweet announces multiple rapid product advancements and achievements in AI and software development, indicating progress and innovation. The mention of 'gold-medal level performance' further emphasizes success.",
+        "engagement_score": 0.78,
+        "keywords": [
+            "Gemini 2.5",
+            "Deep Search",
+            "AI",
+            "Google Photos",
+            "YouTube Shorts",
+            "product launch",
+            "innovation",
+            "performance"
+        ],
+        "target_audience": "Tech enthusiasts, developers, AI community, Google product users",
+        "tweet": "3/ And we continue to ship faster than ever: \n\nGemini 2.5 and Deep Search in AI Mode last week\n\nGemini 2.5 Flash-Lite went into GA yesterday \n\nStarting today, photo to video is coming to Google Photos and YouTube Shorts\n\nWe achieved gold-medal level performance in the"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.85,
+        "topic": "AI Usage Growth",
+        "reason_for_engagement": "The tweet highlights significant growth in AI token processing and user adoption of AI features, indicating positive reception and interest.",
+        "engagement_score": 0.78,
+        "keywords": [
+            "AI",
+            "growth",
+            "tokens",
+            "AI Overviews",
+            "Search",
+            "users",
+            "products",
+            "platforms"
+        ],
+        "target_audience": "Tech enthusiasts, investors, users of AI products, general public interested in AI advancements",
+        "tweet": "2/ Strong growth in AI usage across our products and platforms:\u00a0\n\nWe\u2019re processing 980 trillion+ monthly tokens across our products and APIs (up from 480T at I/O in May)\n\nAI Overviews in Search now has 2B+ monthly users across 200 countries/territories and 40 languages\n\n450M"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.85,
+        "topic": "Company Performance and AI Advancement",
+        "reason_for_engagement": "The user is likely interested in the company's financial performance and its progress in AI.",
+        "engagement_score": 0.75,
+        "keywords": [
+            "Q2",
+            "growth",
+            "AI",
+            "revenue",
+            "Cloud",
+            "Search",
+            "YouTube",
+            "I/O"
+        ],
+        "target_audience": "Investors, Tech Enthusiasts, Business Analysts",
+        "tweet": "1/ Q2 was a standout quarter with robust growth across the company. As we showed at I/O, we\u2019re leading at the frontier of AI and shipping at an incredible pace. \n\nSearch and YouTube saw strong revenue growth.\n\nAnd Cloud had another quarter of strong growth in revenues +"
+    },
+    {
+        "sentiment_type": "neutral",
+        "engagement_type": "like",
+        "sentiment_score": 0.1,
+        "topic": "Google Photos and YouTube Shorts features",
+        "engagement_score": 0.32,
+        "keywords": [
+            "Google Photos",
+            "YouTube Shorts",
+            "features",
+            "availability"
+        ],
+        "target_audience": "Users interested in Google Photos and YouTube Shorts",
+        "tweet": "More on Google Photos features + availability here: https://t.co/4TjCSXGuWV\nMore on YouTube Shorts features here: https://t.co/iAMVqp28Wc"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.9,
+        "topic": "New features in Gemini app and API",
+        "reason_for_engagement": "Users are excited about the new photo-to-video feature and its expansion to YouTube Shorts and Google Photos, as well as upcoming features like remixing Google Photos into different art styles.",
+        "engagement_score": 0.85,
+        "keywords": [
+            "Gemini app",
+            "Gemini API",
+            "photos",
+            "videos",
+            "YouTube Shorts",
+            "Google Photos",
+            "Remix",
+            "comics",
+            "sketches",
+            "3D animations"
+        ],
+        "target_audience": "Users of Gemini app, Gemini API, YouTube Shorts, and Google Photos; individuals interested in photo and video editing, and creative content generation.",
+        "tweet": "So many of you are loving turning your photos into short videos in the @Geminiapp and the\u00a0Gemini API. Next up, we\u2019ll be rolling this feature out to @YouTube Shorts and @GooglePhotos.\u00a0And soon,\u00a0Remix\u00a0your Google Photos into comics, sketches + 3D animations. https://t.co/ct8AYvJpA7"
+    },
+    {
+        "sentiment_type": "neutral",
+        "engagement_type": "like",
+        "sentiment_score": 0.0,
+        "topic": "Details about a link",
+        "reason_for_engagement": "The tweet itself does not contain any discernible sentiment or opinion. It merely provides a link for more details. The engagement is likely due to the content of the linked article.",
+        "engagement_score": 0.3,
+        "keywords": [
+            "details",
+            "link",
+            "information"
+        ],
+        "target_audience": "General audience interested in the content of the link",
+        "tweet": "More details: https://t.co/rFLS6e1VJN"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.85,
+        "topic": "Gemini 2.5 Flash-Lite release",
+        "reason_for_engagement": "The user is excited about the new, fast, and cost-efficient AI model release and wants to share this information with their followers.",
+        "engagement_score": 0.75,
+        "keywords": [
+            "Gemini",
+            "AI",
+            "model",
+            "release",
+            "Google AI Studio",
+            "Vertex AI",
+            "fast",
+            "cost-efficient"
+        ],
+        "target_audience": "AI developers, researchers, and tech enthusiasts",
+        "tweet": "Gemini 2.5 Flash-Lite is now GA \u2014 it\u2019s our fastest (400 tokens/second), most cost-efficient  ($0.10 in, $0.40 out) 2.5 model yet. Look for it in Google AI Studio + Vertex AI. \ud83d\udd26\ud83d\ude09 https://t.co/JbgHCD9Ylc"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.8,
+        "topic": "Appreciation for AI advancements",
+        "reason_for_engagement": "The tweet expresses gratitude towards Elon Musk and Google DeepMind, indicating a positive reception of their work.",
+        "engagement_score": 0.75,
+        "keywords": [
+            "Elon Musk",
+            "Google DeepMind",
+            "AI",
+            "technology",
+            "gratitude"
+        ],
+        "target_audience": "Tech enthusiasts, followers of Elon Musk and Google DeepMind",
+        "tweet": "@elonmusk @GoogleDeepMind Thanks!"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "retweet",
+        "sentiment_score": 0.85,
+        "topic": "AI and Machine Learning",
+        "reason_for_engagement": "The tweet shares exciting news about Gemini Deep Think's advanced capabilities and achievements.",
+        "engagement_score": 0.92,
+        "keywords": [
+            "Gemini",
+            "Deep Think",
+            "GoogleIO",
+            "AI",
+            "Machine Learning",
+            "parallel inference"
+        ],
+        "target_audience": "AI enthusiasts, tech professionals, Google followers",
+        "tweet": "RT @koraykv: Advanced version of Gemini Deep Think (announced at #GoogleIO) using parallel inference time computation achieved gold-medal p\u2026"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.95,
+        "topic": "AI and Mathematics",
+        "reason_for_engagement": "The user is impressed by the rapid progress in mathematical reasoning achieved by Google DeepMind and congratulates the team.",
+        "engagement_score": 0.82,
+        "keywords": [
+            "Google DeepMind",
+            "mathematical reasoning",
+            "AI progress",
+            "artificial intelligence"
+        ],
+        "target_audience": "AI enthusiasts, researchers, tech community",
+        "tweet": "From silver to gold in just a year - the rate of progress in mathematical reasoning is just astounding! Congrats to the @GoogleDeepMind team\u00a0\ud83c\udf89 https://t.co/fAqQ3w3D6q"
+    },
+    {
+        "sentiment_type": "neutral",
+        "engagement_type": "like",
+        "sentiment_score": 0.1,
+        "topic": "link sharing",
+        "reason_for_engagement": "The tweet is a simple call to action to view a link, lacking strong emotional content. The engagement is likely due to the content behind the link.",
+        "engagement_score": 139.0,
+        "keywords": [
+            "details",
+            "link",
+            "learn more"
+        ],
+        "target_audience": "general audience",
+        "tweet": "Get more details here: https://t.co/NZXcjVHWbd"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.9,
+        "topic": "Gemini API and Veo 3",
+        "reason_for_engagement": "Excitement about the new Veo 3 feature in the Gemini API and its potential for creative applications.",
+        "engagement_score": 0.85,
+        "keywords": [
+            "Gemini API",
+            "Veo 3",
+            "text to video",
+            "developers",
+            "AI"
+        ],
+        "target_audience": "Developers and AI enthusiasts",
+        "tweet": "Developers can now build with Veo 3 \ud83c\udfac in the Gemini API. It\u2019s live in paid preview, starting with text to video (image to video coming soon). So many fun Veo trends coming from @Geminiapp users already, can't wait to see what devs come up with!"
+    },
+    {
+        "sentiment_type": "neutral",
+        "engagement_type": "like",
+        "sentiment_score": 0.1,
+        "topic": "product features and availability",
+        "reason_for_engagement": "The tweet provides a link to more details about product features and availability.",
+        "engagement_score": 0.4,
+        "keywords": [
+            "features",
+            "availability",
+            "details",
+            "link"
+        ],
+        "target_audience": "potential customers",
+        "tweet": "More details on the features + availability here:\u00a0https://t.co/EnHBL0CrXi"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "like",
+        "sentiment_score": 0.85,
+        "topic": "AI features in Search",
+        "reason_for_engagement": "The user is likely excited about the new advanced AI features being integrated into Google Search, specifically mentioning Gemini 2.5 Pro and Deep Search, which promise to enhance complex question answering and research capabilities.",
+        "engagement_score": 0.92,
+        "keywords": [
+            "AI",
+            "Search",
+            "Gemini 2.5 Pro",
+            "Deep Search",
+            "Google AI",
+            "AI Mode",
+            "subscribers",
+            "agentic capability",
+            "AI-powered calling"
+        ],
+        "target_audience": "Google AI Pro/Ultra subscribers and users interested in advanced AI capabilities for search and research.",
+        "tweet": "New advanced AI features coming to Search:\n\nGemini 2.5 Pro and Deep Search are rolling out in AI Mode to help with more complex questions and research - available now to Google AI Pro/Ultra subscribers. Plus, a new agentic capability directly in Search: AI-powered calling to"
+    },
+    {
+        "sentiment_type": "positive",
+        "engagement_type": "retweet",
+        "sentiment_score": 0.8,
+        "topic": "ChromeOS development announcement",
+        "reason_for_engagement": "The user is retweeting to share information about ChromeOS development, indicating interest and agreement with the topic.",
+        "engagement_score": 0.75,
+        "keywords": [
+            "ChromeOS",
+            "development",
+            "announcement",
+            "blog post",
+            "2024"
+        ],
+        "target_audience": "Developers, tech enthusiasts, ChromeOS users",
+        "tweet": "RT @ssamat: Great to see so much interest in this topic! To reiterate what we announced in our 2024 blog post: we're building the ChromeOS\u2026"
+    },
+    {
+        "sentiment_type": "neutral",
+        "engagement_type": "like",
+        "sentiment_score": 0.1,
+        "topic": "Technology and Security",
+        "reason_for_engagement": "Users liked the tweet for providing information on security work and a link to more details.",
+        "engagement_score": 0.75,
+        "keywords": [
+            "Big Sleep",
+            "security",
+            "technology",
+            "update",
+            "information"
+        ],
+        "target_audience": "Tech enthusiasts, security professionals, interested public",
+        "tweet": "More details on Big Sleep and our latest security work: https://t.co/agY9AOkyRe"
+    }
 ]

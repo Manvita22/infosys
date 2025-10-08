@@ -19,10 +19,10 @@ with open("extracted_tweets.json") as extracted_tweets_file:
             Read the tweet with regard to its public reception and provide keywords and sentiment analysis score
         """
         out = execute_gemini(sentiment_analysis_prompt)
-        out_dict = json.loads(out)
+        out_dict = json.loads(out)#converting a json string to python dict
         print(out)
-        out_dict["tweet"] = tweet["text"]
-        analyzed_tweets.append(out)
+        out_dict["tweet"] = tweet["text"]#adding a new key to the dict
+        analyzed_tweets.append(out_dict)
 
     with open("analyzed_tweets.json", "w") as analyzed_tweets_file:
-        json.dump(analyzed_tweets, analyzed_tweets_file)
+        json.dump(analyzed_tweets, analyzed_tweets_file) #dumping the whole list into json file(phase I output)
