@@ -1,0 +1,11 @@
+# Existing dependencies for AI Tweet Generator
+flask
+flask-cors
+google-genai
+
+# Deepfake detection dependencies (minimal set for torchscript inference)
+torch==2.6.0
+torchvision==0.21.0
+transformers==4.50.0
+huggingface-hub
+Pillow
