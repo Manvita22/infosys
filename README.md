@@ -174,6 +174,8 @@ http://127.0.0.1:5000/
 
 **Note:** On first use, the deepfake detection model (~350MB) will be automatically downloaded from HuggingFace.
 
+**For detailed usage examples, see [DEEPFAKE_DETECTION.md](DEEPFAKE_DETECTION.md)**
+
 ---
 
 ## 🔬 Deepfake Detection Model
