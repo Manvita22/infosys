@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>AI Tweet Generator</title>
+  <title>AI Tweet Generator & Deepfake Detector</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     let tweet_a_out = null;
@@ -65,33 +65,164 @@
         console.error(err);
       }
     }
+
+    async function detectDeepfake() {
+      const fileInput = document.getElementById("imageUpload");
+      const file = fileInput.files[0];
+      
+      if (!file) {
+        alert("Please select an image!");
+        return;
+      }
+
+      const resultBox = document.getElementById("deepfakeResult");
+      resultBox.innerHTML = '<p class="text-blue-600">⏳ Analyzing image...</p>';
+
+      const formData = new FormData();
+      formData.append("image", file);
+
+      try {
+        const res = await fetch("/detect-deepfake", {
+          method: "POST",
+          body: formData
+        });
+
+        const data = await res.json();
+
+        if (data.success) {
+          const result = data.result;
+          const isFake = result.is_fake;
+          const confidence = (result.confidence * 100).toFixed(2);
+          const fakeProb = (result.fake_probability * 100).toFixed(2);
+          const realProb = (result.real_probability * 100).toFixed(2);
+
+          const color = isFake ? "red" : "green";
+          const verdict = isFake ? "⚠️ DEEPFAKE DETECTED" : "✅ REAL IMAGE";
+
+          resultBox.innerHTML = `
+            <div class="bg-${color}-100 border-l-4 border-${color}-500 p-4 rounded">
+              <h3 class="text-xl font-bold mb-2">${verdict}</h3>
+              <p><strong>Confidence:</strong> ${confidence}%</p>
+              <p><strong>Real Probability:</strong> ${realProb}%</p>
+              <p><strong>Fake Probability:</strong> ${fakeProb}%</p>
+              <p class="text-sm text-gray-600 mt-2">File: ${data.filename}</p>
+            </div>
+          `;
+        } else {
+          resultBox.innerHTML = `<p class="text-red-600">❌ Error: ${data.error}</p>`;
+        }
+
+      } catch (err) {
+        resultBox.innerHTML = `<p class="text-red-600">⚠️ Error analyzing image: ${err.message}</p>`;
+        console.error(err);
+      }
+    }
+
+    function showTab(tabName) {
+      // Hide all tabs
+      document.getElementById("tweetTab").classList.add("hidden");
+      document.getElementById("deepfakeTab").classList.add("hidden");
+
+      // Show selected tab
+      document.getElementById(tabName).classList.remove("hidden");
+
+      // Update button styles
+      const tweetBtn = document.getElementById("tweetTabBtn");
+      const deepfakeBtn = document.getElementById("deepfakeTabBtn");
+
+      if (tabName === "tweetTab") {
+        tweetBtn.classList.add("bg-blue-600", "text-white");
+        tweetBtn.classList.remove("bg-gray-200", "text-gray-700");
+        deepfakeBtn.classList.remove("bg-blue-600", "text-white");
+        deepfakeBtn.classList.add("bg-gray-200", "text-gray-700");
+      } else {
+        deepfakeBtn.classList.add("bg-blue-600", "text-white");
+        deepfakeBtn.classList.remove("bg-gray-200", "text-gray-700");
+        tweetBtn.classList.remove("bg-blue-600", "text-white");
+        tweetBtn.classList.add("bg-gray-200", "text-gray-700");
+      }
+    }
   </script>
 </head>
 <body class="bg-gradient-to-br from-purple-200 via-pink-100 to-blue-200 min-h-screen flex flex-col">
 
   <!-- Header -->
   <header class="text-center py-6 bg-white shadow">
-    <h1 class="text-3xl font-bold text-gray-800">🚀 AI Tweet Generator</h1>
-    <p class="text-gray-500">Chat with AI to generate tweets, comparisons, and predictions</p>
+    <h1 class="text-3xl font-bold text-gray-800">🚀 AI Tweet Generator & Deepfake Detector</h1>
+    <p class="text-gray-500">Generate tweets with AI and detect deepfakes in images</p>
   </header>
 
-  <!-- Chat Area -->
-  <main id="chatBox" class="flex-grow overflow-y-auto px-4 py-6 max-w-5xl mx-auto w-full">
-    <!-- Messages will appear here -->
-  </main>
-
-  <!-- Bottom input bar -->
-  <div class="w-full bg-white border-t border-gray-300 p-4 flex items-center justify-center sticky bottom-0 shadow-md">
-    <input type="text" id="prompt" placeholder="Type your prompt here..."
-      class="flex-grow max-w-3xl border border-gray-300 rounded-2xl px-6 py-3 mr-4 focus:ring-2 focus:ring-blue-400 focus:outline-none" />
-    <button onclick="generateTweet()"
-      class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-8 py-3 rounded-2xl shadow-lg transition">
-      Generate
+  <!-- Tab Navigation -->
+  <div class="flex justify-center gap-4 py-4">
+    <button id="tweetTabBtn" onclick="showTab('tweetTab')" 
+      class="bg-blue-600 text-white px-6 py-2 rounded-lg font-medium transition">
+      Tweet Generator
+    </button>
+    <button id="deepfakeTabBtn" onclick="showTab('deepfakeTab')" 
+      class="bg-gray-200 text-gray-700 px-6 py-2 rounded-lg font-medium transition">
+      Deepfake Detector
     </button>
   </div>
 
-  <!-- Status -->
-  <p id="status" class="text-center text-blue-600 font-medium py-2"></p>
+  <!-- Tweet Generator Tab -->
+  <div id="tweetTab">
+    <!-- Chat Area -->
+    <main id="chatBox" class="flex-grow overflow-y-auto px-4 py-6 max-w-5xl mx-auto w-full" style="min-height: 400px;">
+      <!-- Messages will appear here -->
+    </main>
+
+    <!-- Bottom input bar -->
+    <div class="w-full bg-white border-t border-gray-300 p-4 flex items-center justify-center sticky bottom-0 shadow-md">
+      <input type="text" id="prompt" placeholder="Type your prompt here..."
+        class="flex-grow max-w-3xl border border-gray-300 rounded-2xl px-6 py-3 mr-4 focus:ring-2 focus:ring-blue-400 focus:outline-none" />
+      <button onclick="generateTweet()"
+        class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-8 py-3 rounded-2xl shadow-lg transition">
+        Generate
+      </button>
+    </div>
+
+    <!-- Status -->
+    <p id="status" class="text-center text-blue-600 font-medium py-2"></p>
+  </div>
+
+  <!-- Deepfake Detector Tab -->
+  <div id="deepfakeTab" class="hidden">
+    <div class="max-w-3xl mx-auto px-4 py-6">
+      <div class="bg-white rounded-lg shadow-lg p-8">
+        <h2 class="text-2xl font-bold mb-4 text-gray-800">🔍 Upload Image to Detect Deepfake</h2>
+        <p class="text-gray-600 mb-6">
+          This tool uses a CLIP-based AI model to detect if a face image is artificially generated or manipulated.
+          Upload a clear face image for best results.
+        </p>
+
+        <div class="mb-6">
+          <label class="block text-gray-700 font-medium mb-2">Select Image:</label>
+          <input type="file" id="imageUpload" accept="image/*" 
+            class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:ring-2 focus:ring-blue-400 focus:outline-none" />
+        </div>
+
+        <button onclick="detectDeepfake()" 
+          class="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg shadow-lg transition">
+          Analyze Image
+        </button>
+
+        <div id="deepfakeResult" class="mt-6">
+          <!-- Results will appear here -->
+        </div>
+
+        <div class="mt-8 p-4 bg-gray-100 rounded-lg">
+          <h3 class="font-bold text-gray-800 mb-2">ℹ️ About the Model</h3>
+          <p class="text-sm text-gray-600">
+            This deepfake detector is based on the research paper 
+            <a href="https://arxiv.org/abs/2503.19683" target="_blank" class="text-blue-600 underline">
+              "Unlocking the Hidden Potential of CLIP in Generalizable Deepfake Detection"
+            </a>
+            by Yermakov et al. The model uses CLIP's visual encoder to detect manipulated facial images.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
